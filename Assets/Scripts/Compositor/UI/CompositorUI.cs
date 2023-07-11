@@ -132,15 +132,12 @@ public class CompositorUI : MonoBehaviour
     public void NextIntrument()
     {
         int indexActual = instrumentsUI.FindIndex(x => x.nickname.Equals(actualInstUI.nickname));
-    
         int indexNext = (indexActual + 1) % (instrumentsUI.Count);
    
-
         textactualIns.text =(indexNext + 1).ToString() ;
 
-
         actualInstUI = instrumentsUI[indexNext];
-        DisableEnable();
+         DisableEnable();
     }
 
     public void DisableEnable()
@@ -158,6 +155,9 @@ public class CompositorUI : MonoBehaviour
         {
             indexNext = instrumentsUI.Count - 1;
         }
+
+        textactualIns.text = (indexNext + 1).ToString();
+
         actualInstUI = instrumentsUI[indexNext];
         DisableEnable();
     }
