@@ -73,7 +73,7 @@ Material:
     - _Desplazamiento: 0
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _Escala: 0.6232202
+    - _Escala: 9.246176
     - _GlossMapScale: 1
     - _Glossiness: 0
     - _GlossyReflections: 1
@@ -83,7 +83,7 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _Sensible: 0.3488567
+    - _Sensible: 0.2534089
     - _SmoothnessTextureChannel: 0
     - _Sombras: 0
     - _Sombreado: 0.32

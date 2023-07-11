@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4508549, g: 0.5007658, b: 0.57462966, a: 1}
+  m_IndirectSpecularColor: {r: 0.45085543, g: 0.50076604, b: 0.5746301, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -11876,7 +11876,7 @@ PrefabInstance:
     - target: {fileID: 1978340315235566006, guid: 17dbc1d03757c104381eb0f11d8e7527,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -16.19992
+      value: -16.19989
       objectReference: {fileID: 0}
     - target: {fileID: 1978340315238987376, guid: 17dbc1d03757c104381eb0f11d8e7527,
         type: 3}
@@ -12980,6 +12980,11 @@ PrefabInstance:
       propertyPath: animatorCerdo
       value: 
       objectReference: {fileID: 1393123688}
+    - target: {fileID: 114187683218509958, guid: ede934f7342656b459fb3491f0889adb,
+        type: 3}
+      propertyPath: resetearTama
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 373576463368471679, guid: ede934f7342656b459fb3491f0889adb,
         type: 3}
       propertyPath: m_Controller
