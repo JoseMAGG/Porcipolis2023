@@ -18,6 +18,8 @@ public class CargarCerdoMaterial : MonoBehaviour
         {
             return;
         }
+
+        print (MorionTools.Cargar("sensible"));
         sensible       = float.Parse(MorionTools.Cargar("sensible"));
         escala         = float.Parse(MorionTools.Cargar("escala"));
         desplasamiento = float.Parse(MorionTools.Cargar("desplasamiento"));

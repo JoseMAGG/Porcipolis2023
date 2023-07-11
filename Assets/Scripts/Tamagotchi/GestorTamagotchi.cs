@@ -11,6 +11,7 @@ public class GestorTamagotchi : MonoBehaviour
     #region Objects Instance
     [HideInInspector]
     public  GestorTamagotchi gestorTamagotchi;
+    public Vector3 posCerdo;
 
     #region Sistemas
     public Alimentacion alimentacion;
@@ -178,11 +179,12 @@ public class GestorTamagotchi : MonoBehaviour
     #region Save system 
     public IEnumerator Guardar ()
     {
-        yield return new WaitForSeconds ( 15 );       
-
-        MorionTools.Guardar ( "tamagotchi_" + this.gameObject.name , JsonUtility.ToJson ( this ) );
-   
-        Guardar ();
+        while(true){
+            yield return new WaitForSeconds ( 15 );       
+            posCerdo = transform.position;
+            MorionTools.Guardar ( "tamagotchi_" + this.gameObject.name , JsonUtility.ToJson ( this ) );
+            Debug.Log ( "Información tamagotchi guardada" );
+        }
     }
     #endregion
 
@@ -200,7 +202,8 @@ public class GestorTamagotchi : MonoBehaviour
         }
         JsonUtility.FromJsonOverwrite ( MorionTools.Cargar ( $"tamagotchi_{this.gameObject.name}" ) , this );
         gestorTamagotchi = this;
-        // Debug.Log ( "Información tamagotchi cargada" );
+        transform.position = posCerdo;
+        Debug.Log ( "Información tamagotchi cargada" );
     }
 
     public void AsignarTipoComida ( string v )
