@@ -20,6 +20,8 @@ public class GestionCerdoUI : MonoBehaviour
 
     public void CambiarEscena(string escena)
     {
+        Inicializador.singleton.GuardarDatos();
+        tamagotchiActual.GuardarAhora();
         SceneManager.LoadScene(escena);
     }
 

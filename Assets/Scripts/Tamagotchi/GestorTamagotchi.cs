@@ -10,7 +10,7 @@ public class GestorTamagotchi : MonoBehaviour
     public Estado estadosActuales;
     #region Objects Instance
     [HideInInspector]
-    public  GestorTamagotchi gestorTamagotchi;
+    public GestorTamagotchi gestorTamagotchi;
 
     #region Sistemas
     public Alimentacion alimentacion;
@@ -24,7 +24,7 @@ public class GestorTamagotchi : MonoBehaviour
 
     #endregion
 
-  
+
     [HideInInspector]
     public string id;
     private bool nuevoCerdito = false;
@@ -33,40 +33,40 @@ public class GestorTamagotchi : MonoBehaviour
 
     bool deathProcess = false;
     #region Awake,Start,Update
-    void Awake ()
+    void Awake()
     {
-     
-       if(resetearTama)
-        ResetearTamagotchi (); //Para resetear el tamagotchi del cerdo, borrame en caso de ya hacer pruebas practicas.
+
+        if (resetearTama)
+            ResetearTamagotchi(); //Para resetear el tamagotchi del cerdo, borrame en caso de ya hacer pruebas practicas.
     }
 
-    private IEnumerator Start ()
+    private IEnumerator Start()
     {
-        Cargar ();
+        Cargar();
 
 
 
 
-        if ( nuevoCerdito )
+        if (nuevoCerdito)
         {
-            gestorTamagotchi = this.GetComponent<GestorTamagotchi> ();
-            TamagotchiManager.AñadirGestor ( gestorTamagotchi );
+            gestorTamagotchi = this.GetComponent<GestorTamagotchi>();
+            TamagotchiManager.AñadirGestor(gestorTamagotchi);
             estadosActuales.id = gestorTamagotchi.id;
-            NuevoCerdito ();
+            NuevoCerdito();
 
 
         }
         else
-            TamagotchiManager.AñadirGestor ( gestorTamagotchi );
+            TamagotchiManager.AñadirGestor(gestorTamagotchi);
 
-        yield return new WaitForSeconds ( 0.1f );
+        yield return new WaitForSeconds(0.1f);
 
-        StartCoroutine ( Guardar () );
+        StartCoroutine(Guardar());
     }
 
 
 
-    void Update ()
+    void Update()
     {
         if (animatorCerdo == null)
         {
@@ -76,19 +76,19 @@ public class GestorTamagotchi : MonoBehaviour
         {
             animCerdo.animator = animatorCerdo;
         }
-        if ( estadosActuales.VerificarEstado ( estados.vivo.ToString () ) )
+        if (estadosActuales.VerificarEstado(estados.vivo.ToString()))
         {
-            energia.Actualizar ();
-            cicloSueño.Actualizar ();
-            edad.ActualizarTiempoDeVida ();
-            alimentacion.Actualizar ();
-            salud.Actualizar ();
-            animo.Actualizar ();
+            energia.Actualizar();
+            cicloSueño.Actualizar();
+            edad.ActualizarTiempoDeVida();
+            alimentacion.Actualizar();
+            salud.Actualizar();
+            animo.Actualizar();
 
         }
-        else if(!deathProcess)
+        else if (!deathProcess)
         {
-            SistemasNivelACero ();
+            SistemasNivelACero();
             animCerdo.Muerto();
             TamagotchiEvent.instance.CerdoMuerto();
             this.GetComponent<MovimientoHexagonal>().enabled = false;
@@ -102,12 +102,12 @@ public class GestorTamagotchi : MonoBehaviour
     public void CheckEstadoCritico()
     {
         bool CerdoMuerto = estadosActuales.VerificarEstado("muerto");
-   
+
         bool CerdoCritico = //estadosActuales.VerificarEstado("hambriento") && //Alimentacion
                             estadosActuales.VerificarEstado("deshidratado") && //Alimentacion
                             estadosActuales.VerificarEstado("triste") && //Animo
                             estadosActuales.VerificarEstado("enfermo");  //Salud
-                        
+
         if (CerdoMuerto)
         {
             TamagotchiEvent.instance.ChangeClip("muerto");
@@ -117,7 +117,7 @@ public class GestorTamagotchi : MonoBehaviour
         {
             TamagotchiEvent.instance.ChangeClip("critico");
         }
-        else 
+        else
         {
             TamagotchiEvent.instance.ChangeClip("principal");
 
@@ -126,39 +126,40 @@ public class GestorTamagotchi : MonoBehaviour
 
 
     #endregion
-    public void SistemasNivelACero () {
+    public void SistemasNivelACero()
+    {
         salud.nivel = 0;
         animo.nivel = 0;
     }
 
 
-    void NuevoCerdito ()
+    void NuevoCerdito()
     {
-        InicializarSistemas ();
-        Accion.EjecutarAccion ( Accion.accion.nacer , id );
+        InicializarSistemas();
+        Accion.EjecutarAccion(Accion.accion.nacer, id);
         nuevoCerdito = false;
     }
 
 
-    public void InicializarSistemas ()
+    public void InicializarSistemas()
     {
-        alimentacion.Inicializar ( id );
-        edad.Inicializar ( id );
-        cicloSueño.Inicializar ( id );
-        salud.Inicializar ( id );
-        animo.Inicializar ( id );
-        energia.Inicializar ( id );
+        alimentacion.Inicializar(id);
+        edad.Inicializar(id);
+        cicloSueño.Inicializar(id);
+        salud.Inicializar(id);
+        animo.Inicializar(id);
+        energia.Inicializar(id);
 
     }
 
-    public void EjecutarAccion ( Accion.accion accion )
+    public void EjecutarAccion(Accion.accion accion)
     {
-        if ( Accion.ValidarAccion ( accion , id ) )
+        if (Accion.ValidarAccion(accion, id))
         {
-            Accion.EjecutarAccion ( accion , id );
+            Accion.EjecutarAccion(accion, id);
             return;
         }
-        Debug.Log ( "No puedes ejecutar está accion " + accion );
+        Debug.Log("No puedes ejecutar está accion " + accion);
     }
 
 
@@ -176,45 +177,51 @@ public class GestorTamagotchi : MonoBehaviour
 
 
     #region Save system 
-    public IEnumerator Guardar ()
+    public IEnumerator Guardar()
     {
-        yield return new WaitForSeconds ( 15 );       
+        while (true)
+        {
+            GuardarAhora();
+            yield return new WaitForSeconds(15);
+        }
+    }
 
-        MorionTools.Guardar ( "tamagotchi_" + this.gameObject.name , JsonUtility.ToJson ( this ) );
-   
-        Guardar ();
+    public void GuardarAhora()
+    {
+        MorionTools.Guardar("tamagotchi_" + this.gameObject.name, JsonUtility.ToJson(this));
+        print("Se ha guardado el gestorTamagotchi");
     }
     #endregion
 
     #region Load system
-    public void Cargar ()
+    public void Cargar()
     {
 
 
-        string tamagotchiString = MorionTools.Cargar ( $"tamagotchi_{this.gameObject.name}");
-        if ( tamagotchiString.Equals ( "" ) )
+        string tamagotchiString = MorionTools.Cargar($"tamagotchi_{this.gameObject.name}");
+        if (tamagotchiString.Equals(""))
         {
             gestorTamagotchi = this;
             nuevoCerdito = true;
             return;
         }
-        JsonUtility.FromJsonOverwrite ( MorionTools.Cargar ( $"tamagotchi_{this.gameObject.name}" ) , this );
+        JsonUtility.FromJsonOverwrite(MorionTools.Cargar($"tamagotchi_{this.gameObject.name}"), this);
         gestorTamagotchi = this;
         // Debug.Log ( "Información tamagotchi cargada" );
     }
 
-    public void AsignarTipoComida ( string v )
+    public void AsignarTipoComida(string v)
     {
-        if ( v.Equals ( "1" ) )
+        if (v.Equals("1"))
         {
             alimentacion.hambre.comidaSeleccionada = Hambre.Comida.comida1;
         }
 
-        else if ( v.Equals ( "2" ) )
+        else if (v.Equals("2"))
         {
             alimentacion.hambre.comidaSeleccionada = Hambre.Comida.comida2;
         }
-        else if ( v.Equals ( "3" ) )
+        else if (v.Equals("3"))
         {
             alimentacion.hambre.comidaSeleccionada = Hambre.Comida.comida3;
         }
@@ -222,18 +229,18 @@ public class GestorTamagotchi : MonoBehaviour
 
     }
 
-    public void ResetearTamagotchi ()
+    public void ResetearTamagotchi()
     {
-        MorionTools.Guardar ( $"tamagotchi_{this.gameObject.name}" , "" );
+        MorionTools.Guardar($"tamagotchi_{this.gameObject.name}", "");
 
     }
     #endregion
 
 
 
-    private void OnMouseDown ()
+    private void OnMouseDown()
     {
-        TamagotchiEvent.instance.AsignarCerdo ( this.gameObject );
+        TamagotchiEvent.instance.AsignarCerdo(this.gameObject);
     }
 
 
