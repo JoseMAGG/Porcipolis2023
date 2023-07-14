@@ -9,6 +9,10 @@ public class SlidersTama : MonoBehaviour
     public Slider slAlimentacion;
     public Slider slAnimo;
     public Slider slSalud;
+    public Slider slEdad;
+    public Slider slEnergy;
+    public Slider slSuenio;
+    public Slider slEstado;
     void Start()
     {
         
@@ -22,6 +26,10 @@ public class SlidersTama : MonoBehaviour
         slAlimentacion.value = tamagotchi.alimentacion.nivel;
         slAnimo.value =  tamagotchi.animo.nivel;
         slSalud.value =  tamagotchi.salud.nivel;
+        //slEdad.value =  tamagotchi.edad.nivel;
+       // slEnergia.value =  tamagotchi.ene.nivel;
+        //slSuenio.value =  tamagotchi.salud.nivel;
+        //slEstado.value =  tamagotchi.salud.nivel;
     }
 
  

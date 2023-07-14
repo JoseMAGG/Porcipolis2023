@@ -4831,24 +4831,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 788666518}
   m_CullTransparentMesh: 0
---- !u!1 &807843168 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 373576463361193937, guid: ede934f7342656b459fb3491f0889adb,
-    type: 3}
-  m_PrefabInstance: {fileID: 2492878442363730378}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &807843171
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 807843168}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49ffe59dcec2cf049b4fdb514b5b8ec5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &818805818 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100032, guid: 4434afeef6e937e47b784399496aa177,
@@ -7127,12 +7109,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1384152652}
   m_CullTransparentMesh: 0
---- !u!95 &1393123688 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 373576463368471679, guid: ede934f7342656b459fb3491f0889adb,
-    type: 3}
-  m_PrefabInstance: {fileID: 2492878442363730378}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1402780877 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100166, guid: 4434afeef6e937e47b784399496aa177,
@@ -7303,7 +7279,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 2492878442363730378}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2492878442363730379}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e4f6dcde4d7d9ed42ba6eaba0c449502, type: 3}
@@ -9381,6 +9357,7 @@ GameObject:
   - component: {fileID: 1813373574}
   - component: {fileID: 1813373576}
   - component: {fileID: 1813373577}
+  - component: {fileID: 1813373578}
   m_Layer: 0
   m_Name: Control
   m_TagString: Untagged
@@ -9583,6 +9560,19 @@ MonoBehaviour:
   - objetosActivar:
     - {fileID: 309160527}
     - {fileID: 1479808949}
+--- !u!114 &1813373578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1813373570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ca299a46b7d46d4e81a9ea81ae95263, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  escalaTiempo: 1
 --- !u!1 &1824971927 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100004, guid: 4434afeef6e937e47b784399496aa177,
@@ -13057,43 +13047,8 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 114187683218509958, guid: ede934f7342656b459fb3491f0889adb,
         type: 3}
-      propertyPath: energia.nivel
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114187683218509958, guid: ede934f7342656b459fb3491f0889adb,
-        type: 3}
-      propertyPath: edad.tiempoDeVidaMaximo.dias
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114187683218509958, guid: ede934f7342656b459fb3491f0889adb,
-        type: 3}
-      propertyPath: animacionController.animator
-      value: 
-      objectReference: {fileID: 1393123688}
-    - target: {fileID: 114187683218509958, guid: ede934f7342656b459fb3491f0889adb,
-        type: 3}
-      propertyPath: animCerdo.animator
-      value: 
-      objectReference: {fileID: 1393123688}
-    - target: {fileID: 114187683218509958, guid: ede934f7342656b459fb3491f0889adb,
-        type: 3}
-      propertyPath: animatorCerdo
-      value: 
-      objectReference: {fileID: 1393123688}
-    - target: {fileID: 114187683218509958, guid: ede934f7342656b459fb3491f0889adb,
-        type: 3}
       propertyPath: resetearTama
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 373576463368471679, guid: ede934f7342656b459fb3491f0889adb,
-        type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 4e7d21592a0098d4789827ebf81132d9, type: 2}
-    - target: {fileID: 6007109357319614068, guid: ede934f7342656b459fb3491f0889adb,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8120751395006695321, guid: ede934f7342656b459fb3491f0889adb,
         type: 3}
@@ -13155,33 +13110,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cerdo
       objectReference: {fileID: 0}
-    - target: {fileID: 8120751395006995385, guid: ede934f7342656b459fb3491f0889adb,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 0}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ede934f7342656b459fb3491f0889adb, type: 3}
---- !u!1 &2492878442363730379 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8120751395006995385, guid: ede934f7342656b459fb3491f0889adb,
+--- !u!114 &2492878442363730380 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2492878442363730380, guid: ede934f7342656b459fb3491f0889adb,
     type: 3}
   m_PrefabInstance: {fileID: 2492878442363730378}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2492878442363730380
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2492878442363730379}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e2c8ac1e72a19fd4e9fe0b017a43a2ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gestorTamagotchi: {fileID: 1428656831}
 --- !u!1 &4103954564074471543
 GameObject:
   m_ObjectHideFlags: 0

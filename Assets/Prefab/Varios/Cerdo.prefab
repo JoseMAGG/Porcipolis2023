@@ -1,5 +1,17 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &807843171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 373576463361193937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49ffe59dcec2cf049b4fdb514b5b8ec5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8120751395006995385
 GameObject:
   m_ObjectHideFlags: 0
@@ -14,6 +26,7 @@ GameObject:
   - component: {fileID: 114187683218509958}
   - component: {fileID: 6007109357319614068}
   - component: {fileID: 267588091093749407}
+  - component: {fileID: 2492878442363730380}
   m_Layer: 8
   m_Name: Cerdo
   m_TagString: Cerdo
@@ -103,14 +116,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4f6dcde4d7d9ed42ba6eaba0c449502, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animatorCerdo: {fileID: 373576463368471679}
   animCerdo:
     animator: {fileID: 373576463368471679}
   estadosActuales:
     id: 
     lista: []
   gestorTamagotchi: {fileID: 0}
+  posCerdo: {x: 0, y: 0, z: 0}
   alimentacion:
     id: 
+    nivel: 0
     hambre:
       id: 
       nivel: 0
@@ -292,6 +308,7 @@ MonoBehaviour:
       segundos: 0
     desfaseSec: 0
   id: 
+  resetearTama: 1
 --- !u!114 &6007109357319614068
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -325,6 +342,19 @@ MonoBehaviour:
   sensible: 0
   escala: 0
   desplasamiento: 0
+--- !u!114 &2492878442363730380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8120751395006995385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2c8ac1e72a19fd4e9fe0b017a43a2ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gestorTamagotchi: {fileID: 114187683218509958}
 --- !u!1001 &373576463361159455
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -627,7 +657,7 @@ PrefabInstance:
     - target: {fileID: 9500000, guid: 0f7b46d229d934e42b83fa45b86ef8e3, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 9100000, guid: 4e7d21592a0098d4789827ebf81132d9, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f7b46d229d934e42b83fa45b86ef8e3, type: 3}
 --- !u!4 &373576463360764853 stripped
@@ -639,6 +669,12 @@ Transform:
 --- !u!95 &373576463368471679 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 9500000, guid: 0f7b46d229d934e42b83fa45b86ef8e3,
+    type: 3}
+  m_PrefabInstance: {fileID: 373576463361159455}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &373576463361193937 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100046, guid: 0f7b46d229d934e42b83fa45b86ef8e3,
     type: 3}
   m_PrefabInstance: {fileID: 373576463361159455}
   m_PrefabAsset: {fileID: 0}
