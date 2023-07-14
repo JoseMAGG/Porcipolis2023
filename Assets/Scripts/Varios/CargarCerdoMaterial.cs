@@ -12,10 +12,11 @@ public class CargarCerdoMaterial : MonoBehaviour
     public float escala;
     [Range(0, 1)]
     public float desplasamiento;
+    public bool visitante;
 
     void Start()
     {
-        if (material == null)
+        if (material == null || visitante)
         {
             return;
         }

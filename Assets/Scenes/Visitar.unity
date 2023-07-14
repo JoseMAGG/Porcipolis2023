@@ -1034,6 +1034,11 @@ PrefabInstance:
       propertyPath: material
       value: 
       objectReference: {fileID: 2100000, guid: 2c5c8bbcd9460574a91110562da58531, type: 2}
+    - target: {fileID: 267588091093749407, guid: ede934f7342656b459fb3491f0889adb,
+        type: 3}
+      propertyPath: visitante
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 373576463368471679, guid: ede934f7342656b459fb3491f0889adb,
         type: 3}
       propertyPath: m_Controller
