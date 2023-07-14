@@ -10,6 +10,7 @@ public class ComunicacionGeneral : MonoBehaviour
     private Rect screenRect;
     public RawImage imagenCamara;
     public Image imaQR;
+    public CargarCerdoMaterial cerdoMaterial;
     public Material materialVisita;
     public GameObject goMarrano;
     public Animator[] animators;
@@ -18,6 +19,7 @@ public class ComunicacionGeneral : MonoBehaviour
     private Sprite mySprite;
     void Start()
     {
+        cerdoMaterial = goMarrano.GetComponent<CargarCerdoMaterial>();
         if (salida)
         {
             CrearQR();
@@ -56,24 +58,23 @@ public class ComunicacionGeneral : MonoBehaviour
 
     IEnumerator OnGUI2()
     {
-        try
+        while (!finalizado)
         {
-            IBarcodeReader barcodeReader = new BarcodeReader();
-            // decode the current frame
-            var result = barcodeReader.Decode(camTexture.GetPixels32(),
-              camTexture.width, camTexture.height);
-            if (result != null)
+            try
             {
-                Debug.Log("Leido del QR: " + result.Text);
-                Decodificar(result.Text);
+                IBarcodeReader barcodeReader = new BarcodeReader();
+                // decode the current frame
+                var result = barcodeReader.Decode(camTexture.GetPixels32(),
+                  camTexture.width, camTexture.height);
+                if (result != null)
+                {
+                    Debug.Log("Leido del QR: " + result.Text);
+                    Decodificar(result.Text);
+                }
             }
-        }
-        catch (System.Exception ex) { Debug.LogWarning(ex.Message); }
+            catch (System.Exception ex) { Debug.LogWarning(ex.Message); }
 
-        yield return new WaitForSeconds(1f);
-        if (!finalizado)
-        {
-            StartCoroutine(OnGUI2());
+            yield return new WaitForSeconds(1f);
         }
     }
 
@@ -83,7 +84,7 @@ public class ComunicacionGeneral : MonoBehaviour
         {
             return;
         }
-        texto = texto.Replace('.', ',');
+        //texto = texto.Replace('.', ',');
         string[] strs = texto.Split('|');
         if (strs.Length == 4)
         {
@@ -91,12 +92,17 @@ public class ComunicacionGeneral : MonoBehaviour
             float escala = float.Parse(strs[2]);
             float desplasamiento = float.Parse(strs[3]);
 
-            materialVisita.SetFloat("_Escala", escala);
-            materialVisita.SetFloat("_Sensible", sensible);
-            materialVisita.SetFloat("_Desplazamiento", desplasamiento);
-
-
             goMarrano.SetActive(true);
+
+            cerdoMaterial.SetValues(sensible, escala, desplasamiento);
+
+            //cerdoMaterial.ActualizarMaterial();
+
+
+            //materialVisita.SetFloat("_Escala", escala);
+            //materialVisita.SetFloat("_Sensible", sensible);
+            //materialVisita.SetFloat("_Desplazamiento", desplasamiento);
+
             imagenCamara.gameObject.SetActive(false);
             GestorEconomia.singleton.SumarRecurso(1, 10);
             enabled = false;
@@ -129,5 +135,10 @@ public class ComunicacionGeneral : MonoBehaviour
         encoded.SetPixels32(color32);
         encoded.Apply();
         return encoded;
+    }
+
+    public void DesactivarCamara()
+    {
+        camTexture.Stop();
     }
 }
