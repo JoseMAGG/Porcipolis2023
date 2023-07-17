@@ -1,6 +1,8 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
 public class CompositorUI : MonoBehaviour
 {
@@ -14,6 +16,7 @@ public class CompositorUI : MonoBehaviour
     public Color initialColorTimeLine;
     [Space]
     public Slider sliderSpeed;
+    public Text bpmText;
     [Space]
     [Header("Sprites Grid and Tabs-----------------------")]
     public Sprite spriteDarkOffCells;
@@ -53,14 +56,18 @@ public class CompositorUI : MonoBehaviour
 
         gameController = GameController.instance;
         compositor = gameController.compositor;
-
+        sliderSpeed.value = compositor.bpm;
 
         yield return new WaitForSeconds(0.5f);
 
         SetActualInstrument(gameController.instrumentProp[0].name); //Set the first element of instrument propierties as the actual instrument
     }
 
-
+    private void Update()
+    {
+        compositor.bpm = (int) sliderSpeed.value; 
+        bpmText.text = sliderSpeed.value + "\nBPM";
+    }
 
 
     public void SetActualInstrument(string name)
@@ -108,8 +115,13 @@ public class CompositorUI : MonoBehaviour
 
     }
 
-    public float GetSpeedSlider() => (sliderSpeed.value - 0.5f) * 2;
+    public float GetSpeedSlider() => 60/sliderSpeed.value;
 
+    public void SumSpeed(int value)
+    {
+        sliderSpeed.value += value;
+    }
+    
     public void SetTimeLineColor(int i)
     {
 
@@ -161,13 +173,5 @@ public class CompositorUI : MonoBehaviour
         actualInstUI = instrumentsUI[indexNext];
         DisableEnable();
     }
-
-
-
-
-
-
-
-
 
 }

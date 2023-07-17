@@ -89,7 +89,7 @@ public class AudioManager : MonoBehaviour
         SearchActiveNotes();
 
 
-        yield return new WaitForSeconds(compositorUI.GetSpeedSlider());
+        yield return new WaitForSecondsRealtime(compositorUI.GetSpeedSlider());
 
         compositorUI.ResetTimeLineColor(cols); //Change color timeline
 
