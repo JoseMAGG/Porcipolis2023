@@ -10,8 +10,6 @@ public class GameController : MonoBehaviour
     CompositorUI compositorUI;
     public static int numInstruments;
 
-
-    
     public static GameController instance;
 
     #region Awake,Start...
@@ -72,10 +70,6 @@ public class GameController : MonoBehaviour
         Debug.Log(result);
         MorionTools.Guardar(Compositor.trackName + "_instrumentNames",result);
     }
-
-
-
-
 
     public void Load()
     {

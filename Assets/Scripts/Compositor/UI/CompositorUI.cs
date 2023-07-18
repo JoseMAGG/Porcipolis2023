@@ -38,7 +38,8 @@ public class CompositorUI : MonoBehaviour
     public static int numTabs = 10;
     public static int cols = 8;
     bool showTimeLine = true; //?
-
+    public bool newChanges;
+    public float initialSliderValue;
     #endregion
 
     #region singlenton
@@ -57,7 +58,7 @@ public class CompositorUI : MonoBehaviour
         gameController = GameController.instance;
         compositor = gameController.compositor;
         sliderSpeed.value = compositor.bpm;
-
+        initialSliderValue = sliderSpeed.value;
         yield return new WaitForSeconds(0.5f);
 
         SetActualInstrument(gameController.instrumentProp[0].name); //Set the first element of instrument propierties as the actual instrument
@@ -67,6 +68,7 @@ public class CompositorUI : MonoBehaviour
     {
         compositor.bpm = (int) sliderSpeed.value; 
         bpmText.text = sliderSpeed.value + "\nBPM";
+        if (initialSliderValue != sliderSpeed.value) newChanges = true;
     }
 
 
