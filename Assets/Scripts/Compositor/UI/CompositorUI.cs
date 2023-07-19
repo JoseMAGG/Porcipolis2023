@@ -30,7 +30,7 @@ public class CompositorUI : MonoBehaviour
 
     public static InstrumentUI actualInstUI;
     GameController gameController;
-    Compositor compositor;
+    [HideInInspector] public Compositor compositor;
 
 
     #region Aux variables
@@ -81,7 +81,9 @@ public class CompositorUI : MonoBehaviour
 
             actualInstUI = instrumentsUI.Find(x => x.nickname.Equals(name)); //Find the real one
             actualInstUI.gameObject.SetActive(true);
-         
+
+            textactualIns.text = actualInstUI.nickname;
+
             // actualInstUI.EnableUI();
             instrumentsUI.ForEach(x => x.EnableUI());
         }
@@ -148,9 +150,10 @@ public class CompositorUI : MonoBehaviour
         int indexActual = instrumentsUI.FindIndex(x => x.nickname.Equals(actualInstUI.nickname));
         int indexNext = (indexActual + 1) % (instrumentsUI.Count);
    
-        textactualIns.text =(indexNext + 1).ToString() ;
 
         actualInstUI = instrumentsUI[indexNext];
+        textactualIns.text = actualInstUI.nickname;
+        
          DisableEnable();
     }
 
@@ -170,9 +173,8 @@ public class CompositorUI : MonoBehaviour
             indexNext = instrumentsUI.Count - 1;
         }
 
-        textactualIns.text = (indexNext + 1).ToString();
-
         actualInstUI = instrumentsUI[indexNext];
+        textactualIns.text = actualInstUI.nickname;
         DisableEnable();
     }
 

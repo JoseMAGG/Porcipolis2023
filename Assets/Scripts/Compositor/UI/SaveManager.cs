@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Exit : MonoBehaviour
+public class SaveManager : MonoBehaviour
 {
     private Escenas escenas;
-    public GameObject dialogGo;
+    public GameObject saveWarningGo;
+    public GameObject savedDialogGo;
+    private bool showingSaved = false;
     void Start()
     {
         escenas = GetComponent<Escenas>();
@@ -15,7 +17,7 @@ public class Exit : MonoBehaviour
     {
         if (CompositorUI.instance.newChanges)
         {
-            dialogGo.SetActive(true);
+            saveWarningGo.SetActive(true);
         }
         else
         {
@@ -32,5 +34,19 @@ public class Exit : MonoBehaviour
     public void JustExit(string sceneName)
     {
         escenas.CargarEscena(sceneName);
+    }
+
+    public void ShowSavedDialog()
+    {
+        if (!showingSaved) StartCoroutine(SavedDialog());
+    }
+
+    private IEnumerator SavedDialog()
+    {
+        showingSaved = true;
+        savedDialogGo.SetActive(true);
+        yield return new WaitForSeconds(2);
+        savedDialogGo.SetActive(false);
+        showingSaved = false;
     }
 }

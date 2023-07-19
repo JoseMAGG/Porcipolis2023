@@ -51,7 +51,7 @@ public class GameController : MonoBehaviour
                 MorionTools.Guardar("nombrePistas", nombrePistas);
             }
         }
-
+        compositorUI.newChanges = false;
         //GuardarNombreNumNotes();
     }
 
