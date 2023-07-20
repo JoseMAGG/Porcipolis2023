@@ -10,7 +10,7 @@ public class GestorTamagotchi : MonoBehaviour
     public Estado estadosActuales;
     #region Objects Instance
     [HideInInspector]
-    public GestorTamagotchi gestorTamagotchi;
+    //public GestorTamagotchi gestorTamagotchi;
 
     #region Sistemas
     public Alimentacion alimentacion;
@@ -49,15 +49,15 @@ public class GestorTamagotchi : MonoBehaviour
 
         if (nuevoCerdito)
         {
-            gestorTamagotchi = this.GetComponent<GestorTamagotchi>();
-            TamagotchiManager.AñadirGestor(gestorTamagotchi);
-            estadosActuales.id = gestorTamagotchi.id;
+            //gestorTamagotchi = this.GetComponent<GestorTamagotchi>();
+            TamagotchiManager.AñadirGestor(/*gestorTamagotchi*/this);
+            estadosActuales.id = /*gestorTamagotchi.*/id;
             NuevoCerdito();
 
 
         }
         else
-            TamagotchiManager.AñadirGestor(gestorTamagotchi);
+            TamagotchiManager.AñadirGestor(/*gestorTamagotchi*/this);
 
         yield return new WaitForSeconds(0.1f);
 
@@ -201,12 +201,12 @@ public class GestorTamagotchi : MonoBehaviour
         string tamagotchiString = MorionTools.Cargar($"tamagotchi_{this.gameObject.name}");
         if (tamagotchiString.Equals(""))
         {
-            gestorTamagotchi = this;
+            //gestorTamagotchi = this;
             nuevoCerdito = true;
             return;
         }
         JsonUtility.FromJsonOverwrite(MorionTools.Cargar($"tamagotchi_{this.gameObject.name}"), this);
-        gestorTamagotchi = this;
+        //gestorTamagotchi = this;
         // Debug.Log ( "Información tamagotchi cargada" );
     }
 

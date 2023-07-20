@@ -11,7 +11,8 @@ public class InstrumentUI : MonoBehaviour
 
     [Space]
     [Header("Main grid")]
-    [HideInInspector]  public List<Rows> grid;
+    //[HideInInspector] 
+    public List<Rows> grid;
     [HideInInspector] public List<GameObject> tabs;
     [HideInInspector] public List<Text> tabsText;
     [Space]
