@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Sistema 
 {
-      [Range(0,1)]
-      public string id;
+    public string id;
+    [Range(0,1)]
     public float nivel;
     [HideInInspector]
     public float pivoteNivel;

@@ -37,9 +37,9 @@ public class GestorTamagotchi : MonoBehaviour
     void Awake ()
     {
      
-       if(resetearTama)
+      /* if(resetearTama)
         ResetearTamagotchi (); //Para resetear el tamagotchi del cerdo, borrame en caso de ya hacer pruebas practicas.
-    }
+    */}
 
     private IEnumerator Start ()
     {
@@ -180,7 +180,7 @@ public class GestorTamagotchi : MonoBehaviour
     public IEnumerator Guardar ()
     {
         while(true){
-            yield return new WaitForSeconds ( 15 );       
+            yield return new WaitForSeconds (10);       
             posCerdo = transform.position;
             MorionTools.Guardar ( "tamagotchi_" + this.gameObject.name , JsonUtility.ToJson ( this ) );
             Debug.Log ( "Información tamagotchi guardada" );
@@ -191,8 +191,6 @@ public class GestorTamagotchi : MonoBehaviour
     #region Load system
     public void Cargar ()
     {
-
-
         string tamagotchiString = MorionTools.Cargar ( $"tamagotchi_{this.gameObject.name}");
         if ( tamagotchiString.Equals ( "" ) )
         {
