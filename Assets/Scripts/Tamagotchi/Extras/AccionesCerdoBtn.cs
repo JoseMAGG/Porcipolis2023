@@ -49,4 +49,8 @@ public class AccionesCerdoBtn : MonoBehaviour
     {
         gestorTamagotchi.EjecutarAccion(Accion.accion.enmugrar);
     }
+    public void Sanar()
+    {
+        gestorTamagotchi.EjecutarAccion(Accion.accion.sanar);
+    }
 }

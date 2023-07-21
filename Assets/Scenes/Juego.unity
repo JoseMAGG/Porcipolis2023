@@ -5380,6 +5380,7 @@ MonoBehaviour:
     "animoPorBa\xF1ar": 0.024
     animoPorSanar: 0.024
     animoPorDormir: 0.04
+    animoPorEmbarrar: 0.02
   configSalud:
     configHigiene:
       "tiempoMaxSinBa\xF1ar":
@@ -5420,9 +5421,9 @@ MonoBehaviour:
         minutos: 0
         segundos: 0
       tiempoMaxSinHidratarseSec: 0
-      "hidratacionPorBa\xF1o": 0.013
-      deshidratacionPorJugar: 0.009
-      hidratacionPorBeber: 0.012
+      "hidratacionPorBa\xF1o": 0.05
+      deshidratacionPorJugar: 0.02
+      hidratacionPorBeber: 0.1
   tiempoActual:
     "a\xF1os": 0
     meses: 0
@@ -12097,6 +12098,16 @@ PrefabInstance:
         type: 3}
       propertyPath: frecuencia
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5969468386288941459, guid: 17dbc1d03757c104381eb0f11d8e7527,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2492878442363730380}
+    - target: {fileID: 5969468386288941459, guid: 17dbc1d03757c104381eb0f11d8e7527,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Sanar
       objectReference: {fileID: 0}
     - target: {fileID: 6323728433493748129, guid: 17dbc1d03757c104381eb0f11d8e7527,
         type: 3}
