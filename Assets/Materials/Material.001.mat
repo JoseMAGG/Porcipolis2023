@@ -86,7 +86,7 @@ Material:
     - _Sensible: 0
     - _SmoothnessTextureChannel: 0
     - _Sombras: 0
-    - _Sombreado: 0.32
+    - _Sombreado: 0.406
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _UVSec: 0

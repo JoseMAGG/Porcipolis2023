@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3686503, g: 0.64118475, b: 0.87797934, a: 1}
+  m_IndirectSpecularColor: {r: 0.37037963, g: 0.64151794, b: 0.88151383, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -321,6 +321,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   imagenCamara: {fileID: 1196626058}
   imaQR: {fileID: 137294816}
+  cerdoMaterial: {fileID: 1965293544}
   materialVisita: {fileID: 2100000, guid: 2c5c8bbcd9460574a91110562da58531, type: 2}
   goMarrano: {fileID: 1632465007}
   animators:
@@ -1022,6 +1023,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 267588091093749407, guid: ede934f7342656b459fb3491f0889adb,
+        type: 3}
+      propertyPath: material
+      value: 
+      objectReference: {fileID: 2100000, guid: 2c5c8bbcd9460574a91110562da58531, type: 2}
     - target: {fileID: 373576463368471679, guid: ede934f7342656b459fb3491f0889adb,
         type: 3}
       propertyPath: m_Controller
@@ -1112,6 +1118,18 @@ PrefabInstance:
     - {fileID: 6007109357319614068, guid: ede934f7342656b459fb3491f0889adb, type: 3}
     - {fileID: 8120751395006995390, guid: ede934f7342656b459fb3491f0889adb, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ede934f7342656b459fb3491f0889adb, type: 3}
+--- !u!114 &1965293544 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 267588091093749407, guid: ede934f7342656b459fb3491f0889adb,
+    type: 3}
+  m_PrefabInstance: {fileID: 1965293543}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1632465007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97c94839b52570847bfccea37b2d3b60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2101184375
 GameObject:
   m_ObjectHideFlags: 0
