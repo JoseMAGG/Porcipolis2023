@@ -212,12 +212,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 12562836}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 10
+  row: 0
   col: 0
-  nombre: Fa#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -355,12 +355,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 20012366}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 0
   col: 0
-  nombre: Si
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -671,12 +671,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 52798679}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 9
+  row: 0
   col: 4
-  nombre: Sol#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -857,12 +857,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 58300007}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 7
+  row: 0
   col: 5
-  nombre: Si#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -1000,12 +1000,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 67300952}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 0
   col: 4
-  nombre: Si
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -1143,12 +1143,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 75826953}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 1
   col: 4
-  nombre: La
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -1286,12 +1286,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 79043481}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 9
+  row: 0
   col: 4
-  nombre: Sol#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -1429,12 +1429,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 84307056}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 3
   col: 3
-  nombre: Fa
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -1615,12 +1615,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 93606276}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 8
+  row: 0
   col: 3
-  nombre: La#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -1876,12 +1876,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 109796553}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 1
   col: 6
-  nombre: La
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -2094,12 +2094,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 123207078}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 5
   col: 4
-  nombre: Re
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -2237,12 +2237,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 124500238}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 0
   col: 3
-  nombre: Si
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -2380,12 +2380,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 125023338}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 8
+  row: 0
   col: 6
-  nombre: La#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -2523,12 +2523,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 129349689}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 1
   col: 4
-  nombre: La
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -2774,12 +2774,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 142095674}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 0
   col: 1
-  nombre: Si
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -3100,12 +3100,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 147313447}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 10
+  row: 0
   col: 0
-  nombre: Fa#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -3286,12 +3286,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 163154078}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 11
+  row: 0
   col: 7
-  nombre: Mi#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -3429,12 +3429,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 171643280}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 10
+  row: 0
   col: 4
-  nombre: Fa#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -3863,12 +3863,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 198496699}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 5
   col: 3
-  nombre: Re
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -4006,12 +4006,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 202105991}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 9
+  row: 0
   col: 1
-  nombre: Sol#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -4149,12 +4149,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 205012287}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 3
   col: 5
-  nombre: Fa
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -4335,12 +4335,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 209993023}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 4
   col: 2
-  nombre: Mi
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -4478,12 +4478,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 210052956}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 0
   col: 2
-  nombre: Si
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -4621,12 +4621,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 219332769}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 4
   col: 0
-  nombre: Mi
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -5002,12 +5002,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 242075240}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 3
   col: 7
-  nombre: Fa
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -5145,12 +5145,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 247127199}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 5
   col: 2
-  nombre: Re
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -5288,12 +5288,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 260119827}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 7
+  row: 0
   col: 3
-  nombre: Si#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -5431,12 +5431,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 263226456}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 3
   col: 0
-  nombre: Fa
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -5617,12 +5617,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 263645484}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 0
   col: 7
-  nombre: Si
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -5976,12 +5976,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 283012511}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 9
+  row: 0
   col: 3
-  nombre: Sol#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -6162,12 +6162,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 287627669}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 2
   col: 3
-  nombre: Sol
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -6426,12 +6426,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 307068489}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 6
   col: 3
-  nombre: Do
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -6569,12 +6569,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 311735235}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 8
+  row: 0
   col: 0
-  nombre: La#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -6712,12 +6712,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 314463431}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 8
+  row: 0
   col: 1
-  nombre: La#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -7158,12 +7158,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 335723057}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 3
   col: 4
-  nombre: Fa
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -7301,12 +7301,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 339514221}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 0
   col: 7
-  nombre: Si
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -7444,12 +7444,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 342106379}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 4
   col: 6
-  nombre: Mi
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -7737,12 +7737,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 362809709}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 9
+  row: 0
   col: 7
-  nombre: Sol#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -7958,12 +7958,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 374108925}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 2
   col: 7
-  nombre: Sol
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -8101,12 +8101,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 376686566}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 9
+  row: 0
   col: 1
-  nombre: Sol#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -8440,12 +8440,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 382667636}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 2
   col: 4
-  nombre: Sol
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -8583,12 +8583,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 385325043}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 10
+  row: 0
   col: 6
-  nombre: Fa#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -8726,12 +8726,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 385325263}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 0
   col: 3
-  nombre: Si
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -8944,12 +8944,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 432830013}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 3
   col: 1
-  nombre: Fa
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -9087,12 +9087,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 443471999}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 8
+  row: 0
   col: 1
-  nombre: La#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -9468,12 +9468,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 457163721}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 2
   col: 0
-  nombre: Sol
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -9611,12 +9611,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 466455785}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 8
+  row: 0
   col: 3
-  nombre: La#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -9949,12 +9949,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 483522338}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 2
   col: 2
-  nombre: Sol
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -10178,12 +10178,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 486313369}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 10
+  row: 0
   col: 5
-  nombre: Fa#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -10321,12 +10321,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 494678075}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 5
   col: 0
-  nombre: Re
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -10542,12 +10542,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 498644202}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 3
   col: 1
-  nombre: Fa
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -10685,12 +10685,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 506978529}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 10
+  row: 0
   col: 5
-  nombre: Fa#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -11032,12 +11032,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 520246236}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 11
+  row: 0
   col: 5
-  nombre: Mi#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -11439,12 +11439,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 531938070}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 4
   col: 3
-  nombre: Mi
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -11582,12 +11582,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 538034655}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 6
   col: 7
-  nombre: Do
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -11933,12 +11933,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 549239552}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 0
   col: 5
-  nombre: Si
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -12162,12 +12162,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 562015954}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 1
   col: 2
-  nombre: La
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -12348,12 +12348,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 588483396}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 8
+  row: 0
   col: 4
-  nombre: La#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -12491,12 +12491,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 588668707}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 7
+  row: 0
   col: 1
-  nombre: Si#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -12885,12 +12885,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 610141188}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 0
   col: 1
-  nombre: Si
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -13028,12 +13028,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 611586323}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 2
   col: 4
-  nombre: Sol
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -13249,12 +13249,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 630504555}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 1
   col: 2
-  nombre: La
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -14405,12 +14405,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 675275160}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 5
   col: 5
-  nombre: Re
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -14978,12 +14978,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 705980384}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 2
   col: 7
-  nombre: Sol
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -15196,12 +15196,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 718915381}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 2
   col: 5
-  nombre: Sol
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -15339,12 +15339,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 720407660}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 8
+  row: 0
   col: 7
-  nombre: La#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -15804,12 +15804,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 743504060}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 9
+  row: 0
   col: 6
-  nombre: Sol#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -15947,12 +15947,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 749051580}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 7
+  row: 0
   col: 5
-  nombre: Si#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -16090,12 +16090,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 753248856}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 8
+  row: 0
   col: 2
-  nombre: La#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -16351,12 +16351,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 758465965}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 9
+  row: 0
   col: 2
-  nombre: Sol#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -16572,12 +16572,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 767840588}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 4
   col: 5
-  nombre: Mi
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -16793,12 +16793,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 769905896}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 11
+  row: 0
   col: 5
-  nombre: Mi#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -16936,12 +16936,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 774597201}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 3
   col: 7
-  nombre: Fa
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -17079,12 +17079,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 775859109}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 6
   col: 4
-  nombre: Do
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -17720,12 +17720,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 808177455}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 3
   col: 2
-  nombre: Fa
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -17863,12 +17863,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 808368672}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 4
   col: 4
-  nombre: Mi
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -18006,12 +18006,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 817248911}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 6
   col: 1
-  nombre: Do
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -18235,12 +18235,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 825465157}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 3
   col: 2
-  nombre: Fa
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -18453,12 +18453,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 835498733}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 3
   col: 5
-  nombre: Fa
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -19276,12 +19276,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 854165939}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 4
   col: 3
-  nombre: Mi
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -19700,12 +19700,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 876422213}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 1
   col: 0
-  nombre: La
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -19843,12 +19843,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 883294779}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 11
+  row: 0
   col: 4
-  nombre: Mi#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -19986,12 +19986,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 892293009}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 5
   col: 5
-  nombre: Re
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -20129,12 +20129,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 892801097}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 6
   col: 4
-  nombre: Do
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -20350,12 +20350,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 897992088}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 10
+  row: 0
   col: 7
-  nombre: Fa#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -21135,12 +21135,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 967996625}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 7
+  row: 0
   col: 7
-  nombre: Si#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -21278,12 +21278,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 968317351}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 1
   col: 5
-  nombre: La
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -21657,12 +21657,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 982475272}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 11
+  row: 0
   col: 3
-  nombre: Mi#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -22026,12 +22026,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 994411769}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 4
   col: 6
-  nombre: Mi
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -22169,12 +22169,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 997001923}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 10
+  row: 0
   col: 6
-  nombre: Fa#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -22312,12 +22312,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 998754157}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 11
+  row: 0
   col: 7
-  nombre: Mi#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -22455,12 +22455,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1002682532}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 11
+  row: 0
   col: 4
-  nombre: Mi#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -22762,12 +22762,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1021964403}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 2
   col: 5
-  nombre: Sol
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -23264,12 +23264,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1057678220}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 2
   col: 3
-  nombre: Sol
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -23562,12 +23562,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1079103452}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 8
+  row: 0
   col: 4
-  nombre: La#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -23835,12 +23835,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1098802354}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 5
   col: 2
-  nombre: Re
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -24186,12 +24186,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1114514852}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 7
+  row: 0
   col: 0
-  nombre: Si#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -24329,12 +24329,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1120722596}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 5
   col: 6
-  nombre: Re
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -24732,12 +24732,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1135472170}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 0
   col: 2
-  nombre: Si
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -24983,12 +24983,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1137907633}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 10
+  row: 0
   col: 4
-  nombre: Fa#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -25169,12 +25169,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1151134230}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 4
   col: 4
-  nombre: Mi
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -25392,12 +25392,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1156256254}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 6
   col: 6
-  nombre: Do
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -25578,12 +25578,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1190140473}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 1
   col: 5
-  nombre: La
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -25799,12 +25799,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1192301731}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 7
+  row: 0
   col: 2
-  nombre: Si#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -25942,12 +25942,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1198074452}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 11
+  row: 0
   col: 1
-  nombre: Mi#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -26085,12 +26085,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1199897998}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 6
   col: 6
-  nombre: Do
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -26346,12 +26346,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1209921090}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 3
   col: 3
-  nombre: Fa
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -26489,12 +26489,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1214954740}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 7
+  row: 0
   col: 0
-  nombre: Si#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -26632,12 +26632,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1216569498}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 1
   col: 7
-  nombre: La
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -26991,12 +26991,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1250206475}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 5
   col: 3
-  nombre: Re
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -27212,12 +27212,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1254010661}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 10
+  row: 0
   col: 2
-  nombre: Fa#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -27355,12 +27355,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1255843742}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 11
+  row: 0
   col: 2
-  nombre: Mi#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -27498,12 +27498,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1256996348}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 6
   col: 2
-  nombre: Do
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -27998,12 +27998,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1293487398}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 4
   col: 7
-  nombre: Mi
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -28184,12 +28184,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1304912808}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 9
+  row: 0
   col: 0
-  nombre: Sol#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -28618,12 +28618,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1312718866}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 10
+  row: 0
   col: 7
-  nombre: Fa#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -28761,12 +28761,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1315644077}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 8
+  row: 0
   col: 2
-  nombre: La#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -29099,12 +29099,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1326662647}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 0
   col: 6
-  nombre: Si
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -29242,12 +29242,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1333409961}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 9
+  row: 0
   col: 2
-  nombre: Sol#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -29385,12 +29385,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1334784132}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 4
   col: 5
-  nombre: Mi
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -29571,12 +29571,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1342698774}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 9
+  row: 0
   col: 0
-  nombre: Sol#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -29822,12 +29822,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1367545946}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 11
+  row: 0
   col: 2
-  nombre: Mi#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -30095,12 +30095,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1376062183}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 5
   col: 0
-  nombre: Re
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -30238,12 +30238,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1376422914}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 7
+  row: 0
   col: 4
-  nombre: Si#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -30499,12 +30499,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1384049079}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 2
   col: 1
-  nombre: Sol
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -30642,12 +30642,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1388291910}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 4
   col: 1
-  nombre: Mi
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -30828,12 +30828,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1414818103}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 9
+  row: 0
   col: 5
-  nombre: Sol#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -31014,12 +31014,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1419683852}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 8
+  row: 0
   col: 0
-  nombre: La#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -31373,12 +31373,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1440388271}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 11
+  row: 0
   col: 1
-  nombre: Mi#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -31516,12 +31516,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1448364810}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 7
+  row: 0
   col: 7
-  nombre: Si#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -31806,12 +31806,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1453777313}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 11
+  row: 0
   col: 6
-  nombre: Mi#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -32239,12 +32239,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1478106074}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 10
+  row: 0
   col: 3
-  nombre: Fa#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -32425,12 +32425,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1482996978}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 11
+  row: 0
   col: 0
-  nombre: Mi#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -32568,12 +32568,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1483388920}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 9
+  row: 0
   col: 6
-  nombre: Sol#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -32754,12 +32754,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1489939899}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 1
   col: 1
-  nombre: La
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -32940,12 +32940,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1494960173}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 7
+  row: 0
   col: 6
-  nombre: Si#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -33343,12 +33343,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1503774428}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 6
   col: 3
-  nombre: Do
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -33564,12 +33564,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1509347435}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 8
+  row: 0
   col: 7
-  nombre: La#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -33707,12 +33707,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1510425807}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 5
   col: 7
-  nombre: Re
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -33928,12 +33928,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1539669259}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 7
+  row: 0
   col: 3
-  nombre: Si#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -34270,12 +34270,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1546947398}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 2
   col: 1
-  nombre: Sol
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -34554,12 +34554,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1553055281}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 0
   col: 4
-  nombre: Si
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -34740,12 +34740,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1557922636}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 10
+  row: 0
   col: 2
-  nombre: Fa#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -34961,12 +34961,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1587434874}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 3
   col: 4
-  nombre: Fa
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -35104,12 +35104,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1589451938}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 5
   col: 6
-  nombre: Re
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -35434,12 +35434,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1592440869}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 6
   col: 5
-  nombre: Do
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -35577,12 +35577,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1597348455}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 9
+  row: 0
   col: 5
-  nombre: Sol#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -36197,12 +36197,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1656663593}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 4
   col: 2
-  nombre: Mi
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -36383,12 +36383,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1674004835}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 5
   col: 4
-  nombre: Re
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -36979,12 +36979,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1687787652}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 10
+  row: 0
   col: 3
-  nombre: Fa#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -37122,12 +37122,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1698184358}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 9
+  row: 0
   col: 3
-  nombre: Sol#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -37418,12 +37418,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1720776432}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 4
   col: 1
-  nombre: Mi
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -37561,12 +37561,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1722531428}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 7
+  row: 0
   col: 2
-  nombre: Si#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -37704,12 +37704,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1724501186}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 9
+  row: 0
   col: 7
-  nombre: Sol#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -37847,12 +37847,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1733785797}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 7
+  row: 0
   col: 1
-  nombre: Si#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -38206,12 +38206,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1773043076}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 2
   col: 2
-  nombre: Sol
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -38513,12 +38513,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1789917789}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 5
   col: 1
-  nombre: Re
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -38656,12 +38656,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1793307245}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 1
   col: 6
-  nombre: La
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -39070,12 +39070,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1816773154}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 6
   col: 0
-  nombre: Do
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -39334,12 +39334,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1829118958}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 4
   col: 7
-  nombre: Mi
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -39477,12 +39477,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1833101753}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 2
   col: 0
-  nombre: Sol
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -39663,12 +39663,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1836813958}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 0
   col: 6
-  nombre: Si
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -39936,12 +39936,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1842375871}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 8
+  row: 0
   col: 6
-  nombre: La#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -40079,12 +40079,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1846827435}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 1
   col: 1
-  nombre: La
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -40265,12 +40265,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1863613615}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 2
   col: 6
-  nombre: Sol
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -40408,12 +40408,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1867297173}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 8
+  row: 0
   col: 5
-  nombre: La#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -40551,12 +40551,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1874439493}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 0
   col: 5
-  nombre: Si
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -40694,12 +40694,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1877589826}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 7
+  row: 0
   col: 4
-  nombre: Si#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -40837,12 +40837,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1878797936}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 1
   col: 3
-  nombre: La
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -40980,12 +40980,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1883852307}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 6
   col: 1
-  nombre: Do
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -41209,12 +41209,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1906780475}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 3
   col: 6
-  nombre: Fa
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -41352,12 +41352,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1907807764}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 4
   col: 0
-  nombre: Mi
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -41538,12 +41538,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1911759161}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 2
   col: 6
-  nombre: Sol
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -42076,12 +42076,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1944553245}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 10
+  row: 0
   col: 1
-  nombre: Fa#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -42262,12 +42262,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1952882420}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 10
+  row: 0
   col: 1
-  nombre: Fa#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -42405,12 +42405,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1963187462}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 11
+  row: 0
   col: 6
-  nombre: Mi#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -42548,12 +42548,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1967273406}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 7
+  row: 0
   col: 6
-  nombre: Si#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -42691,12 +42691,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1972168805}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 6
   col: 5
-  nombre: Do
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -42834,12 +42834,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1979448651}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 6
   col: 7
-  nombre: Do
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -42977,12 +42977,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1980709967}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 1
   col: 3
-  nombre: La
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -43325,12 +43325,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 2002710342}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 11
+  row: 0
   col: 0
-  nombre: Mi#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -43815,12 +43815,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 2032208558}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 5
   col: 1
-  nombre: Re
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -43958,12 +43958,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 2045037802}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 11
+  row: 0
   col: 3
-  nombre: Mi#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -44218,12 +44218,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 2062257383}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 6
   col: 0
-  nombre: Do
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -44514,12 +44514,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 2070120324}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 1
   col: 0
-  nombre: La
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -44657,12 +44657,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 2078392933}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 5
   col: 7
-  nombre: Re
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -44972,12 +44972,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 2089730171}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 8
+  row: 0
   col: 5
-  nombre: La#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -45190,12 +45190,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 2094750723}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 3
   col: 0
-  nombre: Fa
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -45333,12 +45333,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 2096595021}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 1
   col: 7
-  nombre: La
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -45476,12 +45476,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 2099977114}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 3
   col: 6
-  nombre: Fa
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -45893,12 +45893,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 2129163075}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 6
   col: 2
-  nombre: Do
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -46079,12 +46079,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 2136543923}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 0
   col: 0
-  nombre: Si
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -51823,7 +51823,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327405047202550}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 0
@@ -51923,12 +51923,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327405073361023}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 8
+  row: 0
   col: 2
-  nombre: La#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -52052,12 +52052,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327405090006906}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 11
+  row: 0
   col: 0
-  nombre: Mi#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -52253,7 +52253,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327405094226762}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 0
@@ -52382,12 +52382,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327405095025614}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 10
+  row: 0
   col: 6
-  nombre: Fa#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -52691,12 +52691,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327405126249077}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 9
+  row: 0
   col: 7
-  nombre: Sol#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -52820,12 +52820,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327405128515768}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 8
+  row: 0
   col: 5
-  nombre: La#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -52891,12 +52891,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327405191444539}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 5
   col: 2
-  nombre: Re
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -53020,7 +53020,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327405194586366}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 2
@@ -53091,12 +53091,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327405200367453}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 8
+  row: 0
   col: 0
-  nombre: La#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -53458,12 +53458,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327405215489084}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 9
+  row: 0
   col: 2
-  nombre: Sol#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -53688,7 +53688,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327405230113276}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 2
@@ -53759,7 +53759,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327405232521696}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 0
@@ -53859,7 +53859,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327405239515173}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 2
@@ -54007,7 +54007,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327405245877115}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 0
@@ -54275,7 +54275,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327405324476361}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 2
@@ -54375,12 +54375,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327405325834653}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 7
+  row: 0
   col: 3
-  nombre: Si#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -54582,12 +54582,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327405352222558}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 11
+  row: 0
   col: 1
-  nombre: Mi#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -54790,12 +54790,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327405460871608}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 5
   col: 3
-  nombre: Re
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -54890,7 +54890,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327405462782732}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 4
@@ -55169,12 +55169,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327405542370429}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 5
   col: 0
-  nombre: Re
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -55298,7 +55298,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327405551147552}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 3
@@ -55369,7 +55369,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327405566815965}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 3
@@ -55599,12 +55599,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327405585342345}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 8
+  row: 0
   col: 3
-  nombre: La#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -55728,12 +55728,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327405591284220}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 10
+  row: 0
   col: 1
-  nombre: Fa#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -55799,12 +55799,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327405591899895}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 8
+  row: 0
   col: 1
-  nombre: La#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -55899,7 +55899,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327405624654616}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 0
@@ -56236,12 +56236,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327405712276388}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 5
   col: 5
-  nombre: Re
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -56307,12 +56307,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327405730328093}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 6
   col: 0
-  nombre: Do
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -56407,7 +56407,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327405731153789}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 4
@@ -56536,12 +56536,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327405758382634}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 10
+  row: 0
   col: 7
-  nombre: Fa#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -56636,12 +56636,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327405766372770}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 10
+  row: 0
   col: 2
-  nombre: Fa#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -56952,12 +56952,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327405912915944}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 7
+  row: 0
   col: 2
-  nombre: Si#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -57052,12 +57052,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327405938448332}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 8
+  row: 0
   col: 7
-  nombre: La#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -57123,7 +57123,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327405943626481}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 4
@@ -57223,7 +57223,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327405951561331}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 4
@@ -57352,12 +57352,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327405959437198}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 9
+  row: 0
   col: 1
-  nombre: Sol#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -57423,7 +57423,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327405978530555}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 4
@@ -57653,12 +57653,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327406023791295}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 9
+  row: 0
   col: 3
-  nombre: Sol#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -57856,7 +57856,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327406048945141}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 4
@@ -57985,7 +57985,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327406049318848}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 2
@@ -58085,12 +58085,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327406067520922}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 6
   col: 2
-  nombre: Do
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -58148,12 +58148,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327406073519234}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 9
+  row: 0
   col: 6
-  nombre: Sol#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -58285,7 +58285,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327406079737124}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 1
@@ -58404,7 +58404,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327406088944175}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 0
@@ -58568,12 +58568,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327406123358293}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 10
+  row: 0
   col: 4
-  nombre: Fa#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -58697,12 +58697,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327406134428902}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 5
   col: 6
-  nombre: Re
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -58846,12 +58846,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327406190985817}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 7
+  row: 0
   col: 5
-  nombre: Si#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -58946,12 +58946,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327406203171809}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 6
   col: 6
-  nombre: Do
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -59291,12 +59291,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327406273987246}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 8
+  row: 0
   col: 4
-  nombre: La#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -59391,12 +59391,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327406302302928}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 8
+  row: 0
   col: 6
-  nombre: La#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -59491,12 +59491,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327406308769330}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 6
   col: 4
-  nombre: Do
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -59660,7 +59660,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327406339805313}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 1
@@ -59769,12 +59769,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327406341346266}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 11
+  row: 0
   col: 5
-  nombre: Mi#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -59977,12 +59977,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327406387561634}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 10
+  row: 0
   col: 0
-  nombre: Fa#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -60116,7 +60116,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327406400228096}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 1
@@ -60177,7 +60177,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327406407016394}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 4
@@ -60385,7 +60385,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327406416290238}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 1
@@ -60524,12 +60524,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327406422710080}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 11
+  row: 0
   col: 3
-  nombre: Mi#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -60734,7 +60734,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327406494141879}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 0
@@ -60815,12 +60815,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327406506677534}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 9
+  row: 0
   col: 0
-  nombre: Sol#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -61042,7 +61042,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327406533997981}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 1
@@ -61249,12 +61249,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327406574409372}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 6
   col: 1
-  nombre: Do
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -61349,12 +61349,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327406607862148}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 10
+  row: 0
   col: 3
-  nombre: Fa#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -61449,7 +61449,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327406672437550}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 3
@@ -61520,12 +61520,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327406700675701}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 11
+  row: 0
   col: 4
-  nombre: Mi#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -61620,12 +61620,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327406711494055}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 11
+  row: 0
   col: 6
-  nombre: Mi#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -61720,12 +61720,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327406715180957}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 7
+  row: 0
   col: 1
-  nombre: Si#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -61820,12 +61820,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327406725915685}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 5
   col: 7
-  nombre: Re
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -62304,12 +62304,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327406762213184}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 7
+  row: 0
   col: 6
-  nombre: Si#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -62336,12 +62336,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327406762633513}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 7
+  row: 0
   col: 4
-  nombre: Si#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -62465,12 +62465,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327406765304442}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 6
   col: 7
-  nombre: Do
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -62646,12 +62646,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327406823762885}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 11
+  row: 0
   col: 7
-  nombre: Mi#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -62775,12 +62775,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327406828678034}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 6
   col: 5
-  nombre: Do
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -62846,7 +62846,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327406834563910}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 0
@@ -62975,7 +62975,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327406846681624}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 3
@@ -63046,12 +63046,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327406895744141}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 5
   col: 4
-  nombre: Re
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -63175,12 +63175,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327406904671190}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 9
+  row: 0
   col: 5
-  nombre: Sol#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -63275,7 +63275,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327406907121310}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 3
@@ -63346,12 +63346,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327406920955057}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 5
   col: 1
-  nombre: Re
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -63446,12 +63446,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327406930541645}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 9
+  row: 0
   col: 4
-  nombre: Sol#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -63546,7 +63546,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327406947467833}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 3
@@ -63646,7 +63646,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327406975676813}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 2
@@ -63775,7 +63775,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327406980155390}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 4
@@ -63875,12 +63875,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327406990092080}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 6
   col: 3
-  nombre: Do
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -64154,7 +64154,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327407027219347}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 3
@@ -64283,12 +64283,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327407033603402}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 11
+  row: 0
   col: 2
-  nombre: Mi#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -64354,12 +64354,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327407052423383}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 10
+  row: 0
   col: 5
-  nombre: Fa#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -64454,7 +64454,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327407088797455}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 1
@@ -64554,7 +64554,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327407098395625}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 2
@@ -64683,12 +64683,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327407162244662}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 7
+  row: 0
   col: 0
-  nombre: Si#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
@@ -64754,7 +64754,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327407171468729}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 3
@@ -64854,7 +64854,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327407173803633}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 2
@@ -64983,7 +64983,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327407174380108}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 1
@@ -65083,7 +65083,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327407176235728}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   row: 1
@@ -65183,12 +65183,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8970327407180110228}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb0131d1aefaa749bb06209e0edc197, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e3673a36e8fc94783e39b14845eb59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  row: 7
+  row: 0
   col: 7
-  nombre: Si#
+  nombre: 
   instrumentUI: {fileID: 0}
   instrument:
     PreviusTab: 0
