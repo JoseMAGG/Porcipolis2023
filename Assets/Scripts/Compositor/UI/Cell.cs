@@ -18,6 +18,7 @@ namespace Scripts.Compositor.UI
         {
             gameController = GameController.instance;
             GetComponent<Button>().onClick.AddListener(() => ActivarDesactivar());
+            nombre = transform.parent.name;
         }
 
         void Activar()
