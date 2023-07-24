@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class CellAssigner : MonoBehaviour
 {
-    void Start()
+    void Awake()
     {
         AssignCells();
     }
@@ -19,10 +19,11 @@ public class CellAssigner : MonoBehaviour
             {
                 for (int j = 0; j < note.childCount; j++)
                 {
+                    note.GetChild(j).gameObject.AddComponent<Cell>();
                     Cell noteCell = note.GetChild(j).gameObject.GetComponent<Cell>();
                     noteCell.row = i;
                     noteCell.col = j;
-                    noteCell.name = note.name;
+                    noteCell.nombre = note.name;
                 }
             }
         }
