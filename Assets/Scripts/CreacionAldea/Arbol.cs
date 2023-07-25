@@ -8,6 +8,13 @@ public class Arbol : MonoBehaviour
     public GameObject[] arboles;
     public int cuantoRecursos = 5;
 
+    private float minimoPequeño = 0.3f;
+    private float minimoMediano = 0.6f;
+    private float minimoGrande = 0.9f;
+    private float maximoGrande = 1.2f;
+
+    internal CrecimientoArbol crecimiento = 0;
+
     void Start()
     {
         objeto = GetComponent<ObjetoCreado>();
@@ -16,11 +23,13 @@ public class Arbol : MonoBehaviour
         {
             arboles[i].SetActive(i == k);
         }
+        StartCoroutine(Crecer());
     }
 
     private void OnMouseUp()
     {
-        if (ControlAldea.singleton.modo == Modos.talar && !MovCamera.moviendo && !ControlAldea.MouseEnUI()) 
+        if (ControlAldea.singleton.modo == Modos.talar && !MovCamera.moviendo && !ControlAldea.MouseEnUI()
+            && crecimiento.Equals(CrecimientoArbol.Grande))
         {
             objeto.padre.Desocupar();
             Instantiate(ControlAldea.singleton.particulasExplocion, transform.position, Quaternion.identity);
@@ -31,6 +40,49 @@ public class Arbol : MonoBehaviour
 
     void Update()
     {
-        
+
     }
+
+    private IEnumerator Crecer()
+    {
+        //yield return new WaitForSeconds(1);
+        while (!crecimiento.Equals(CrecimientoArbol.Crecido))
+        {
+            Vector3 sizeVector;
+            switch (crecimiento)
+            {
+                case CrecimientoArbol.Pequeño:
+                    sizeVector = RandomiceVector(minimoPequeño, minimoMediano);
+                    break;
+                case CrecimientoArbol.Mediano:
+                    sizeVector = RandomiceVector(minimoMediano, minimoGrande);
+                    break;
+                case CrecimientoArbol.Grande:
+                    sizeVector = RandomiceVector(minimoGrande, maximoGrande);
+                    break;
+                default:
+                    sizeVector = Vector3.zero;
+                    break;
+            }
+            objeto.padre.crecimientoArbol = (int) crecimiento;
+            transform.localScale = sizeVector;
+            int secs = Random.Range(30, 90);
+            crecimiento++;
+            yield return new WaitForSecondsRealtime(secs);
+        }
+    }
+
+    private Vector3 RandomiceVector(float min, float max)
+    {
+        Vector3 sizeVector;
+        float sizeX = Random.Range(min, max);
+        float sizeY = Random.Range(min, max);
+        float sizeZ = Random.Range(min, max);
+        sizeVector = new Vector3(sizeX, sizeY, sizeZ);
+        return sizeVector;
+    }
+}
+public enum CrecimientoArbol
+{
+    Pequeño = 0, Mediano = 1, Grande = 2, Crecido = 3
 }
