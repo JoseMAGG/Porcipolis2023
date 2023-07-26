@@ -46,7 +46,6 @@ public class Inicializador : MonoBehaviour
         {
             CargarDatos(granja);
         }
-        StartCoroutine(Guardar());
     }
     
     public void CargarDatos(string datos)
@@ -74,15 +73,6 @@ public class Inicializador : MonoBehaviour
             s = s + HexagonoControl.singleton.hexagonos[i].ConvertirString();
         }
         MorionTools.Guardar("granja", s);
-    }
-
-    public IEnumerator Guardar()
-    {
-        while (true)
-        {
-            GuardarDatos();
-            print("Se ha guardado el Inicializador");
-            yield return new WaitForSeconds(15);
-        }
+        print("Se ha guardado el Inicializador");
     }
 }

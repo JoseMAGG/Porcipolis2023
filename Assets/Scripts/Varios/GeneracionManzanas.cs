@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class GeneracionManzanas : MonoBehaviour
 {
+    private const float probabilidadGeneracion = 0.25f;
     public List<Manzana> manzanas;
 
     private bool esperandoGenerar = false;
@@ -28,7 +29,7 @@ public class GeneracionManzanas : MonoBehaviour
         if (inactivas.Count > 0)
         {
             Manzana elegida = inactivas[Random.Range(0, inactivas.Count)];
-            bool activar = Random.Range(0f, 1f) < 0.5f;
+            bool activar = Random.Range(0f, 1f) < probabilidadGeneracion;
             elegida.gameObject.SetActive(activar);
         }
         tiempoPrueba = 0f;

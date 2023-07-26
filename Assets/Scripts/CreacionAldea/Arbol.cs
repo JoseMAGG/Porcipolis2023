@@ -13,8 +13,8 @@ public class Arbol : MonoBehaviour
     private float minimoGrande = 0.9f;
     private float maximoGrande = 1.2f;
 
-    private static int tiempoMinCrecimiento = 5;
-    private static int tiempoMaxCrecimiento = 20;
+    private static int tiempoMinCrecimiento = 20;
+    private static int tiempoMaxCrecimiento = 80;
     
 
     internal CrecimientoArbol crecimiento = 0;
@@ -50,7 +50,7 @@ public class Arbol : MonoBehaviour
     private IEnumerator Crecer()
     {
         //yield return new WaitForSeconds(1);
-        while (!crecimiento.Equals(CrecimientoArbol.Crecido))
+        do
         {
             Vector3 sizeVector;
             switch (crecimiento)
@@ -65,18 +65,24 @@ public class Arbol : MonoBehaviour
                     sizeVector = RandomiceVector(minimoGrande, maximoGrande);
                     crecimiento++;
                     break;
+                case CrecimientoArbol.Crecido:
+                    sizeVector = RandomiceVector(minimoGrande, maximoGrande);
+                    break;
+
                 default:
                     sizeVector = Vector3.zero;
                     break;
             }
-            objeto.padre.crecimientoArbol = (int) crecimiento;
+            objeto.padre.crecimientoArbol = (int)crecimiento;
             transform.localScale = sizeVector;
-            
+
+            Inicializador.singleton.GuardarDatos();
+
             int secs = Random.Range(tiempoMinCrecimiento, tiempoMaxCrecimiento);
             yield return new WaitForSecondsRealtime(secs);
 
-            if(crecimiento < CrecimientoArbol.Crecido) crecimiento++;
-        }
+            if (crecimiento < CrecimientoArbol.Crecido) crecimiento++;
+        } while (!crecimiento.Equals(CrecimientoArbol.Crecido));
     }
 
     private Vector3 RandomiceVector(float min, float max)
