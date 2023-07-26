@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1072825055892788232}
   - component: {fileID: 1072825055891985512}
   - component: {fileID: 1072825055891019304}
+  - component: {fileID: 2401875869765503832}
   m_Layer: 0
   m_Name: Plane.001
   m_TagString: Untagged
@@ -59,6 +60,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -70,6 +72,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -82,6 +85,24 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &2401875869765503832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1072825055893211240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e023b33143ec2ae4cbaf99a8bf3223ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  manzanas:
+  - {fileID: 7794102156730073736}
+  - {fileID: 3782177560614253461}
+  - {fileID: 5060253812172878767}
+  - {fileID: 4578779207287118046}
+  - {fileID: 7464576322545985888}
 --- !u!1 &1654201081213019311
 GameObject:
   m_ObjectHideFlags: 0
@@ -172,6 +193,7 @@ GameObject:
   - component: {fileID: 4244717987648536323}
   - component: {fileID: 4244717987651927907}
   - component: {fileID: 4244717987650960675}
+  - component: {fileID: 7720487237885518333}
   m_Layer: 0
   m_Name: Icosphere.002
   m_TagString: Untagged
@@ -220,6 +242,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -231,6 +254,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -243,6 +267,24 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &7720487237885518333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4244717987649020771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e023b33143ec2ae4cbaf99a8bf3223ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  manzanas:
+  - {fileID: 2851644228023483623}
+  - {fileID: 6798689527943314640}
+  - {fileID: 7873754924910753890}
+  - {fileID: 8537711042208427874}
+  - {fileID: 7206172570514449264}
 --- !u!1001 &285169911986133420
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -254,6 +296,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Manzana (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2622840832535946571, guid: afbf6c1d8084c8847891b4ac087097b8,
+        type: 3}
+      propertyPath: arbol
+      value: 
+      objectReference: {fileID: 6061008602820223947}
+    - target: {fileID: 2622840832535946571, guid: afbf6c1d8084c8847891b4ac087097b8,
+        type: 3}
+      propertyPath: tiempoMinAparecer
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 2622840832535946571, guid: afbf6c1d8084c8847891b4ac087097b8,
+        type: 3}
+      propertyPath: tiempoMaxAparecer
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 6698434266295175509, guid: afbf6c1d8084c8847891b4ac087097b8,
         type: 3}
@@ -327,6 +384,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: afbf6c1d8084c8847891b4ac087097b8, type: 3}
+--- !u!114 &2851644228023483623 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2622840832535946571, guid: afbf6c1d8084c8847891b4ac087097b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 285169911986133420}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f61cbb05b98910f4092305f2f4caf026, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &6845681438600466681 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6698434266295175509, guid: afbf6c1d8084c8847891b4ac087097b8,
@@ -344,6 +413,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Manzana (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2622840832535946571, guid: afbf6c1d8084c8847891b4ac087097b8,
+        type: 3}
+      propertyPath: arbol
+      value: 
+      objectReference: {fileID: 6061008602820223947}
+    - target: {fileID: 2622840832535946571, guid: afbf6c1d8084c8847891b4ac087097b8,
+        type: 3}
+      propertyPath: tiempoMinAparecer
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 2622840832535946571, guid: afbf6c1d8084c8847891b4ac087097b8,
+        type: 3}
+      propertyPath: tiempoMaxAparecer
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 6698434266295175509, guid: afbf6c1d8084c8847891b4ac087097b8,
         type: 3}
@@ -423,6 +507,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1160465962091960030}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &3782177560614253461 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2622840832535946571, guid: afbf6c1d8084c8847891b4ac087097b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1160465962091960030}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f61cbb05b98910f4092305f2f4caf026, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2012304993125334421
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -434,6 +530,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Manzana (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2622840832535946571, guid: afbf6c1d8084c8847891b4ac087097b8,
+        type: 3}
+      propertyPath: arbol
+      value: 
+      objectReference: {fileID: 6061008602820223947}
+    - target: {fileID: 2622840832535946571, guid: afbf6c1d8084c8847891b4ac087097b8,
+        type: 3}
+      propertyPath: tiempoMinAparecer
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 2622840832535946571, guid: afbf6c1d8084c8847891b4ac087097b8,
+        type: 3}
+      propertyPath: tiempoMaxAparecer
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 6698434266295175509, guid: afbf6c1d8084c8847891b4ac087097b8,
         type: 3}
@@ -507,6 +618,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: afbf6c1d8084c8847891b4ac087097b8, type: 3}
+--- !u!114 &4578779207287118046 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2622840832535946571, guid: afbf6c1d8084c8847891b4ac087097b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 2012304993125334421}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f61cbb05b98910f4092305f2f4caf026, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &5123049924814894272 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6698434266295175509, guid: afbf6c1d8084c8847891b4ac087097b8,
@@ -524,6 +647,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Manzana (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2622840832535946571, guid: afbf6c1d8084c8847891b4ac087097b8,
+        type: 3}
+      propertyPath: arbol
+      value: 
+      objectReference: {fileID: 6061008602820223947}
+    - target: {fileID: 2622840832535946571, guid: afbf6c1d8084c8847891b4ac087097b8,
+        type: 3}
+      propertyPath: tiempoMinAparecer
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 2622840832535946571, guid: afbf6c1d8084c8847891b4ac087097b8,
+        type: 3}
+      propertyPath: tiempoMaxAparecer
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 6698434266295175509, guid: afbf6c1d8084c8847891b4ac087097b8,
         type: 3}
@@ -603,6 +741,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 4640752788922205755}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &7206172570514449264 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2622840832535946571, guid: afbf6c1d8084c8847891b4ac087097b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 4640752788922205755}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f61cbb05b98910f4092305f2f4caf026, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &4895891404457561131
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -614,6 +764,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Manzana (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2622840832535946571, guid: afbf6c1d8084c8847891b4ac087097b8,
+        type: 3}
+      propertyPath: arbol
+      value: 
+      objectReference: {fileID: 6061008602820223947}
+    - target: {fileID: 2622840832535946571, guid: afbf6c1d8084c8847891b4ac087097b8,
+        type: 3}
+      propertyPath: tiempoMinAparecer
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 2622840832535946571, guid: afbf6c1d8084c8847891b4ac087097b8,
+        type: 3}
+      propertyPath: tiempoMaxAparecer
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 6698434266295175509, guid: afbf6c1d8084c8847891b4ac087097b8,
         type: 3}
@@ -693,6 +858,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 4895891404457561131}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &7464576322545985888 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2622840832535946571, guid: afbf6c1d8084c8847891b4ac087097b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 4895891404457561131}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f61cbb05b98910f4092305f2f4caf026, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &5209544688216926147
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -704,6 +881,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Manzana
+      objectReference: {fileID: 0}
+    - target: {fileID: 2622840832535946571, guid: afbf6c1d8084c8847891b4ac087097b8,
+        type: 3}
+      propertyPath: arbol
+      value: 
+      objectReference: {fileID: 6061008602820223947}
+    - target: {fileID: 2622840832535946571, guid: afbf6c1d8084c8847891b4ac087097b8,
+        type: 3}
+      propertyPath: tiempoMinAparecer
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 2622840832535946571, guid: afbf6c1d8084c8847891b4ac087097b8,
+        type: 3}
+      propertyPath: tiempoMaxAparecer
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 6698434266295175509, guid: afbf6c1d8084c8847891b4ac087097b8,
         type: 3}
@@ -777,6 +969,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: afbf6c1d8084c8847891b4ac087097b8, type: 3}
+--- !u!114 &7794102156730073736 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2622840832535946571, guid: afbf6c1d8084c8847891b4ac087097b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 5209544688216926147}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f61cbb05b98910f4092305f2f4caf026, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1493395396261932694 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6698434266295175509, guid: afbf6c1d8084c8847891b4ac087097b8,
@@ -794,6 +998,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Manzana (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2622840832535946571, guid: afbf6c1d8084c8847891b4ac087097b8,
+        type: 3}
+      propertyPath: arbol
+      value: 
+      objectReference: {fileID: 6061008602820223947}
+    - target: {fileID: 2622840832535946571, guid: afbf6c1d8084c8847891b4ac087097b8,
+        type: 3}
+      propertyPath: tiempoMinAparecer
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 2622840832535946571, guid: afbf6c1d8084c8847891b4ac087097b8,
+        type: 3}
+      propertyPath: tiempoMaxAparecer
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 6698434266295175509, guid: afbf6c1d8084c8847891b4ac087097b8,
         type: 3}
@@ -873,6 +1092,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 5270057862070557993}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &7873754924910753890 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2622840832535946571, guid: afbf6c1d8084c8847891b4ac087097b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 5270057862070557993}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f61cbb05b98910f4092305f2f4caf026, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &5916103880649902633
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -884,6 +1115,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Manzana (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2622840832535946571, guid: afbf6c1d8084c8847891b4ac087097b8,
+        type: 3}
+      propertyPath: arbol
+      value: 
+      objectReference: {fileID: 6061008602820223947}
+    - target: {fileID: 2622840832535946571, guid: afbf6c1d8084c8847891b4ac087097b8,
+        type: 3}
+      propertyPath: tiempoMinAparecer
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 2622840832535946571, guid: afbf6c1d8084c8847891b4ac087097b8,
+        type: 3}
+      propertyPath: tiempoMaxAparecer
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 6698434266295175509, guid: afbf6c1d8084c8847891b4ac087097b8,
         type: 3}
@@ -963,6 +1209,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 5916103880649902633}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &8537711042208427874 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2622840832535946571, guid: afbf6c1d8084c8847891b4ac087097b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 5916103880649902633}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f61cbb05b98910f4092305f2f4caf026, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &7088544725976782564
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -974,6 +1232,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Manzana (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2622840832535946571, guid: afbf6c1d8084c8847891b4ac087097b8,
+        type: 3}
+      propertyPath: arbol
+      value: 
+      objectReference: {fileID: 6061008602820223947}
+    - target: {fileID: 2622840832535946571, guid: afbf6c1d8084c8847891b4ac087097b8,
+        type: 3}
+      propertyPath: tiempoMinAparecer
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 2622840832535946571, guid: afbf6c1d8084c8847891b4ac087097b8,
+        type: 3}
+      propertyPath: tiempoMaxAparecer
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 6698434266295175509, guid: afbf6c1d8084c8847891b4ac087097b8,
         type: 3}
@@ -1047,6 +1320,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: afbf6c1d8084c8847891b4ac087097b8, type: 3}
+--- !u!114 &5060253812172878767 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2622840832535946571, guid: afbf6c1d8084c8847891b4ac087097b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 7088544725976782564}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f61cbb05b98910f4092305f2f4caf026, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &4515438784976035761 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6698434266295175509, guid: afbf6c1d8084c8847891b4ac087097b8,
@@ -1064,6 +1349,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Manzana (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2622840832535946571, guid: afbf6c1d8084c8847891b4ac087097b8,
+        type: 3}
+      propertyPath: arbol
+      value: 
+      objectReference: {fileID: 6061008602820223947}
+    - target: {fileID: 2622840832535946571, guid: afbf6c1d8084c8847891b4ac087097b8,
+        type: 3}
+      propertyPath: tiempoMinAparecer
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 2622840832535946571, guid: afbf6c1d8084c8847891b4ac087097b8,
+        type: 3}
+      propertyPath: tiempoMaxAparecer
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 6698434266295175509, guid: afbf6c1d8084c8847891b4ac087097b8,
         type: 3}
@@ -1143,3 +1443,15 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 8809040656229685659}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &6798689527943314640 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2622840832535946571, guid: afbf6c1d8084c8847891b4ac087097b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 8809040656229685659}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f61cbb05b98910f4092305f2f4caf026, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

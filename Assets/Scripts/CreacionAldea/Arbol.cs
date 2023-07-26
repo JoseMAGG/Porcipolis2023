@@ -13,6 +13,10 @@ public class Arbol : MonoBehaviour
     private float minimoGrande = 0.9f;
     private float maximoGrande = 1.2f;
 
+    private static int tiempoMinCrecimiento = 5;
+    private static int tiempoMaxCrecimiento = 20;
+    
+
     internal CrecimientoArbol crecimiento = 0;
 
     void Start()
@@ -29,7 +33,7 @@ public class Arbol : MonoBehaviour
     private void OnMouseUp()
     {
         if (ControlAldea.singleton.modo == Modos.talar && !MovCamera.moviendo && !ControlAldea.MouseEnUI()
-            && crecimiento.Equals(CrecimientoArbol.Grande))
+            && crecimiento.Equals(CrecimientoArbol.Crecido))
         {
             objeto.padre.Desocupar();
             Instantiate(ControlAldea.singleton.particulasExplocion, transform.position, Quaternion.identity);
@@ -59,6 +63,7 @@ public class Arbol : MonoBehaviour
                     break;
                 case CrecimientoArbol.Grande:
                     sizeVector = RandomiceVector(minimoGrande, maximoGrande);
+                    crecimiento++;
                     break;
                 default:
                     sizeVector = Vector3.zero;
@@ -66,9 +71,11 @@ public class Arbol : MonoBehaviour
             }
             objeto.padre.crecimientoArbol = (int) crecimiento;
             transform.localScale = sizeVector;
-            int secs = Random.Range(30, 90);
-            crecimiento++;
+            
+            int secs = Random.Range(tiempoMinCrecimiento, tiempoMaxCrecimiento);
             yield return new WaitForSecondsRealtime(secs);
+
+            if(crecimiento < CrecimientoArbol.Crecido) crecimiento++;
         }
     }
 
