@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GeneracionManzanas : MonoBehaviour
 {
-    private const float probabilidadGeneracion = 0.25f;
+    private const float probabilidadGeneracion = 0.3f;
     public List<Manzana> manzanas;
 
     private bool esperandoGenerar = false;

@@ -6,7 +6,6 @@ public class Arbol : MonoBehaviour
 {
     ObjetoCreado objeto;
     public GameObject[] arboles;
-    public int cuantoRecursos = 5;
 
     private float minimoPequeño = 0.3f;
     private float minimoMediano = 0.6f;
@@ -30,26 +29,8 @@ public class Arbol : MonoBehaviour
         StartCoroutine(Crecer());
     }
 
-    private void OnMouseUp()
-    {
-        if (ControlAldea.singleton.modo == Modos.talar && !MovCamera.moviendo && !ControlAldea.MouseEnUI()
-            && crecimiento.Equals(CrecimientoArbol.Crecido))
-        {
-            objeto.padre.Desocupar();
-            Instantiate(ControlAldea.singleton.particulasExplocion, transform.position, Quaternion.identity);
-            GestorEconomia.singleton.SumarRecurso(0, cuantoRecursos);
-            Destroy(gameObject);
-        }
-    }
-
-    void Update()
-    {
-
-    }
-
     private IEnumerator Crecer()
     {
-        //yield return new WaitForSeconds(1);
         do
         {
             Vector3 sizeVector;
