@@ -26,7 +26,7 @@ public class Salud :Sistema
 
 
 
-
+        // checking if the pig is sick
         if (TamagotchiManager.GetGestorTamagotchi ( id ).estadosActuales.VerificarEstado(Estado.enfermo.ToString()))
         {
             sanar.ActualizarTiempoActualSin();
