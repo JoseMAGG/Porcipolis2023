@@ -94,7 +94,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1072825055893211240}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e023b33143ec2ae4cbaf99a8bf3223ce, type: 3}
+  m_Script: {fileID: 11500000, guid: 78ffe82d31d517a4d82ebe1a9b6e946c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   manzanas:
@@ -153,6 +153,7 @@ MonoBehaviour:
   padre: {fileID: 0}
   indicePropiedades: 0
   activaBoton: -1
+  cuantoRecursos: 5
 --- !u!114 &6061008602820223947
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -168,7 +169,6 @@ MonoBehaviour:
   arboles:
   - {fileID: 1072825055893211240}
   - {fileID: 4244717987649020771}
-  cuantoRecursos: 5
 --- !u!65 &6616874050663190326
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -276,7 +276,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4244717987649020771}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e023b33143ec2ae4cbaf99a8bf3223ce, type: 3}
+  m_Script: {fileID: 11500000, guid: 78ffe82d31d517a4d82ebe1a9b6e946c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   manzanas:
