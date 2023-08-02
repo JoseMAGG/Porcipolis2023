@@ -79,6 +79,7 @@ public class Accion
             #region Accion.enmugrar
             case accion.enmugrar:
                 gestorTama.salud.Enmugrar();
+                gestorTama.animo.Enmugrar();
                 break;
             #endregion
 
