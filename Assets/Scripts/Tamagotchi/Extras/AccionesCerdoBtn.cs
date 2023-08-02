@@ -27,7 +27,15 @@ public class AccionesCerdoBtn : MonoBehaviour
             default:
                 break;
         }
-        gestorTamagotchi.EjecutarAccion(Accion.accion.comer);
+        try
+        {
+            gestorTamagotchi.EjecutarAccion(Accion.accion.comer);
+            GestionCerdoUI.singleton.ActivarObjetos(comida - 1);
+        }
+        catch (System.Exception e)
+        {
+            Mensajes.singleton.Mensaje(e.Message);
+        }
     }
 
     public void Beber()

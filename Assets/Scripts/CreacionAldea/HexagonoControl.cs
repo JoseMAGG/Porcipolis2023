@@ -46,6 +46,7 @@ public class HexagonoControl : MonoBehaviour
                 hexagono.Envallar();
             }
         }
+        Inicializador.singleton.GuardarDatos();
     }
 
     public void GuardarAldea()

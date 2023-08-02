@@ -1,26 +1,35 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics.Eventing.Reader;
 using UnityEngine;
 
 public class Manzana : MonoBehaviour
 {
     public float probabilidad = 0.2f;
-    // Start is called before the first frame update
+    public Arbol arbol;
+    
+    private static float tiempoMinAparecer = 60;
+    private static float tiempoMaxAparecer = 120;
+
+    public bool arbolEstaGrande;
+
     void Start()
     {
-        if (Random.Range(0f,1f) > probabilidad)
+        arbolEstaGrande = arbol.crecimiento >= CrecimientoArbol.Grande;
+        if (arbolEstaGrande)
         {
-            Destroy(gameObject);
+            gameObject.SetActive(Random.Range(0f, 1f) < probabilidad);
         }
+        else gameObject.SetActive(false);
     }
     private void OnMouseUp()
     {
         GestorEconomia.singleton.SumarRecurso(1, 1);
-        Destroy(gameObject);
+        gameObject.SetActive(false);
     }
-    // Update is called once per frame
     void Update()
     {
-        
+        if (!arbolEstaGrande)
+            arbolEstaGrande = arbol.crecimiento >= CrecimientoArbol.Grande;
     }
 }
