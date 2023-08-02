@@ -21,7 +21,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Minijuego_2.unity
     guid: 105b106484055444dbc790987964e7b4
   - enabled: 1
-    path: Assets/Scenes/PistasMenu.unity
+    path: Assets/Scenes/MenuCompositorT.unity
     guid: 087836e02756a3840942e9b6a01b9285
   - enabled: 1
     path: Assets/Scenes/Registrar.unity
@@ -35,4 +35,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/VisitarSalida.unity
     guid: d9e54258f1b96124eaa766aa2a87ca1a
+  - enabled: 1
+    path: Assets/Scenes/PistasMenu.unity
+    guid: 96d023f36fb62e34fbcd0051519a16ed
   m_configObjects: {}
