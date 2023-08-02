@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.PlayerLoop;
 
 public class CargarCerdoMaterial : MonoBehaviour
 {
@@ -11,26 +12,31 @@ public class CargarCerdoMaterial : MonoBehaviour
     public float escala;
     [Range(0, 1)]
     public float desplasamiento;
+    public bool visitante;
 
     void Start()
     {
-        if (material == null)
+        if (material == null || visitante)
         {
             return;
         }
-        sensible       = float.Parse(MorionTools.Cargar("sensible"));
-        escala         = float.Parse(MorionTools.Cargar("escala"));
+        sensible = float.Parse(MorionTools.Cargar("sensible"));
+        escala = float.Parse(MorionTools.Cargar("escala"));
         desplasamiento = float.Parse(MorionTools.Cargar("desplasamiento"));
-        if ((sensible+escala+desplasamiento)==0)
+        if ((sensible + escala + desplasamiento) == 0)
         {
             CrearCerdo();
         }
 
+        ActualizarMaterial();
 
+    }
+
+    public void ActualizarMaterial()
+    {
         material.SetFloat("_Escala", escala);
         material.SetFloat("_Sensible", sensible);
         material.SetFloat("_Desplazamiento", desplasamiento);
-
     }
 
     public void CrearCerdo()
@@ -44,9 +50,15 @@ public class CargarCerdoMaterial : MonoBehaviour
         MorionTools.Guardar("desplasamiento", desplasamiento.ToString());
     }
 
-
-    void Update()
+    public void Update()
     {
-        
+        ActualizarMaterial();
+    }
+
+    public void SetValues(float sensible, float escala, float desplasamiento)
+    {
+        this.sensible = sensible;
+        this.escala = escala;
+        this.desplasamiento = desplasamiento;
     }
 }

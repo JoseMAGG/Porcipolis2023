@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 using ZXing;
@@ -10,14 +11,21 @@ public class ComunicacionGeneral : MonoBehaviour
     private Rect screenRect;
     public RawImage imagenCamara;
     public Image imaQR;
+    public CargarCerdoMaterial cerdoMaterial;
     public Material materialVisita;
     public GameObject goMarrano;
     public Animator[] animators;
     public bool finalizado = false;
     public bool salida;
     private Sprite mySprite;
+    [Space]
+    [Header("Excepciones")]
+    [SerializeField] private string qrConformatoInvalido;
+    [SerializeField] private string visitaASiMismo;
+    [SerializeField] private string qrYaUtilizado;
     void Start()
     {
+        cerdoMaterial = goMarrano.GetComponent<CargarCerdoMaterial>();
         if (salida)
         {
             CrearQR();
@@ -38,7 +46,9 @@ public class ComunicacionGeneral : MonoBehaviour
 
     void CrearQR()
     {
-        string texto = MorionTools.nombreUsuario;
+        int qrsGenerados = GetNumeroQrsGenerados();
+
+        string texto = qrsGenerados + "|" + MorionTools.nombreUsuario;
         texto += "|" + (MorionTools.Cargar("sensible"));
         texto += "|" + (MorionTools.Cargar("escala"));
         texto += "|" + (MorionTools.Cargar("desplasamiento"));
@@ -49,6 +59,18 @@ public class ComunicacionGeneral : MonoBehaviour
         print("Generado " + texto);
     }
 
+    private static int GetNumeroQrsGenerados()
+    {
+        string qrs = MorionTools.Cargar("QR");
+        int qrsGenerados;
+        if (qrs == "") qrsGenerados = 0;
+        else qrsGenerados = int.Parse(qrs);
+        qrsGenerados++;
+        MorionTools.Guardar("QR", qrsGenerados.ToString());
+
+        return qrsGenerados;
+    }
+
     private void FixedUpdate()
     {
         imagenCamara.texture = camTexture;
@@ -56,24 +78,23 @@ public class ComunicacionGeneral : MonoBehaviour
 
     IEnumerator OnGUI2()
     {
-        try
+        while (!finalizado)
         {
-            IBarcodeReader barcodeReader = new BarcodeReader();
-            // decode the current frame
-            var result = barcodeReader.Decode(camTexture.GetPixels32(),
-              camTexture.width, camTexture.height);
-            if (result != null)
+            try
             {
-                Debug.Log("Leido del QR: " + result.Text);
-                Decodificar(result.Text);
+                IBarcodeReader barcodeReader = new BarcodeReader();
+                // decode the current frame
+                var result = barcodeReader.Decode(camTexture.GetPixels32(),
+                  camTexture.width, camTexture.height);
+                if (result != null)
+                {
+                    Debug.Log("Leido del QR: " + result.Text);
+                    Decodificar(result.Text);
+                }
             }
-        }
-        catch (System.Exception ex) { Debug.LogWarning(ex.Message); }
+            catch (System.Exception ex) { Debug.LogWarning(ex.Message); }
 
-        yield return new WaitForSeconds(1f);
-        if (!finalizado)
-        {
-            StartCoroutine(OnGUI2());
+            yield return new WaitForSeconds(1f);
         }
     }
 
@@ -83,30 +104,64 @@ public class ComunicacionGeneral : MonoBehaviour
         {
             return;
         }
-        texto = texto.Replace('.', ',');
+        //texto = texto.Replace('.', ',');
         string[] strs = texto.Split('|');
-        if (strs.Length == 4)
+
+        if (strs.Length != 5)
         {
-            float sensible = float.Parse(strs[1]);
-            float escala = float.Parse(strs[2]);
-            float desplasamiento = float.Parse(strs[3]);
-
-            materialVisita.SetFloat("_Escala", escala);
-            materialVisita.SetFloat("_Sensible", sensible);
-            materialVisita.SetFloat("_Desplazamiento", desplasamiento);
-
-
-            goMarrano.SetActive(true);
-            imagenCamara.gameObject.SetActive(false);
-            GestorEconomia.singleton.SumarRecurso(1, 10);
-            enabled = false;
-            finalizado = true;
-            camTexture.Stop();
-            for (int i = 0; i < animators.Length; i++)
-            {
-                animators[i].SetBool("visita", true);
-            }
+            Mensajes.singleton.Mensaje(qrConformatoInvalido);
+            print("El formato del QR es incorrecto, genere uno nuevo");
+            return;
         }
+
+        if (strs[1].Equals(MorionTools.nombreUsuario))
+        {
+            Mensajes.singleton.Mensaje(visitaASiMismo);
+            print("No puede visitarse a usted mismo");
+            return;
+        }
+
+        bool yaVisitado = ValidarVisitado(strs);
+
+        if (yaVisitado)
+        {
+            Mensajes.singleton.Mensaje(qrYaUtilizado);
+            print("Ya ha utilizado este QR antes, utilice uno nuevo");
+            return;
+        }
+
+        float sensible = float.Parse(strs[2]);
+        float escala = float.Parse(strs[3]);
+        float desplasamiento = float.Parse(strs[4]);
+
+        goMarrano.SetActive(true);
+
+        cerdoMaterial.SetValues(sensible, escala, desplasamiento);
+
+        imagenCamara.gameObject.SetActive(false);
+        GestorEconomia.singleton.SumarRecurso(1, 10);
+        enabled = false;
+        finalizado = true;
+        camTexture.Stop();
+        for (int i = 0; i < animators.Length; i++)
+        {
+            animators[i].SetBool("visita", true);
+        }
+    }
+
+    private static bool ValidarVisitado(string[] strs)
+    {
+        bool yaVisitado = false;
+        string visitados = MorionTools.Cargar("Visita_" + strs[1]);
+        if (visitados == "") MorionTools.Guardar("Visita_" + strs[1], strs[0]);
+        else
+        {
+            string[] visitadosArray = visitados.Split('|');
+            yaVisitado = visitadosArray.Contains(strs[0]);
+            if (!yaVisitado) MorionTools.Guardar("Visita_" + strs[1], visitados + "|" + strs[0]);
+        }
+
+        return yaVisitado;
     }
 
     private static Color32[] Encode(string textForEncoding, int width, int height)
@@ -129,5 +184,10 @@ public class ComunicacionGeneral : MonoBehaviour
         encoded.SetPixels32(color32);
         encoded.Apply();
         return encoded;
+    }
+
+    public void DesactivarCamara()
+    {
+        camTexture.Stop();
     }
 }
