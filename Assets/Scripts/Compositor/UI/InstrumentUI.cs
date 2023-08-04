@@ -10,13 +10,14 @@ public class InstrumentUI : MonoBehaviour
 
     [Space]
     [Header("Main grid")]
-    [HideInInspector]  public List<Rows> grid;
+    //[HideInInspector] 
+    public List<Rows> grid;
     [HideInInspector] public List<GameObject> tabs;
     [HideInInspector] public List<Text> tabsText;
     [Space]
     [Header("Buttons")]
-    public GameObject addButton;
-    public GameObject removeButton;
+    //public GameObject addButton;
+    //public GameObject removeButton;
     [Space]
     [Header("Structure Obj")]
     public GameObject gridObj;
@@ -41,7 +42,7 @@ public class InstrumentUI : MonoBehaviour
     GameController gameController;
     Compositor compositor;
     CompositorUI compositorUI;
-    Instrument instrument;
+    [HideInInspector] public Instrument instrument;
 
     private void Awake()
     {
@@ -55,7 +56,7 @@ public class InstrumentUI : MonoBehaviour
     {
        
   
-
+        
         compositorUI = CompositorUI.instance;
         gameController = GameController.instance;
         compositorUI.instrumentsUI.Add(this);
@@ -137,7 +138,7 @@ public class InstrumentUI : MonoBehaviour
     public void EnableUI()
     {
       
-        removeButton.SetActive(instrument.PagesNum == 1 ? false : true); //Disable/Active remove Button
+        //removeButton.SetActive(instrument.PagesNum == 1 ? false : true); //Disable/Active remove Button
 
         EnableTab();
     }
@@ -187,9 +188,6 @@ public class InstrumentUI : MonoBehaviour
 
     public void ShowActualPage(string ind)
     {
-
-     
-
         if (firstTime)
         {
             ChangeImageTab(SearchIndexText(ind), -1);
@@ -203,9 +201,12 @@ public class InstrumentUI : MonoBehaviour
         }
 
         LoadGrid();
+    }
 
 
-
+    public int GetActualPage()
+    {
+        return instrument.ActualPage;
     }
 
     public void LoadGrid()
@@ -299,19 +300,19 @@ public class InstrumentUI : MonoBehaviour
     {
 
 
-        int pagesNum = instrument.PagesNum;
+        //int pagesNum = instrument.PagesNum;
 
-        #region Special Cases
-        if (pagesNum == 1)
-        {
-            removeButton.SetActive(true);
-        }
+        //#region Special Cases
+        //if (pagesNum == 1)
+        //{
+        //    removeButton.SetActive(true);
+        //}
 
-        if (pagesNum == 9)
-        {
-            addButton.SetActive(false);
-        }
-        #endregion 
+        //if (pagesNum == 9)
+        //{
+        //    addButton.SetActive(false);
+        //}
+        //#endregion 
 
         tabs.Find (x => !x.activeInHierarchy).SetActive(true); // find the first inactive tab and enable it
 
@@ -350,16 +351,16 @@ public class InstrumentUI : MonoBehaviour
 
         if (pagesNum > 1)
         {
-            #region Special Case :Pagesnum <10
-            if (pagesNum < 10 && !addButton.activeInHierarchy)
-            {
-                addButton.SetActive(true);
-            }
-            if (pagesNum - 1 == 1)
-            {
-                removeButton.SetActive(false);
-            }
-            #endregion
+            //#region Special Case :Pagesnum <10
+            //if (pagesNum < 10 && !addButton.activeInHierarchy)
+            //{
+            //    addButton.SetActive(true);
+            //}
+            //if (pagesNum - 1 == 1)
+            //{
+            //    removeButton.SetActive(false);
+            //}
+            //#endregion
 
             #region Delete
             for (int i = 0; i < tabs.Count; i++)

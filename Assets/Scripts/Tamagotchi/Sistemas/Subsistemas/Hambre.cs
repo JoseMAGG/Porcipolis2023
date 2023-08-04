@@ -55,6 +55,9 @@ public class Hambre : Sistema
 
     public void Comer()
     {
+        int cantidadRecurso = (int) Math.Ceiling((double)((int)comidaSeleccionada / 2));
+        bool sePuedeComer = GestorEconomia.singleton.UsarRecurso(1, cantidadRecurso);
+        if (!sePuedeComer) throw new Exception("No hay suficiente comida");
         Disminuir(Afloat(comidaSeleccionada));
         pivoteNivel = nivel;
         tiemposComer.ResetearTiempos();

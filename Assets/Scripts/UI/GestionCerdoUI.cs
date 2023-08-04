@@ -11,6 +11,11 @@ public class GestionCerdoUI : MonoBehaviour
     public GameObject cnvInfoCerdo;
     public SelectorCerdos selectorCerdo;
     public ObjetosActivarDesactivar[] objetosAD;
+
+    public RectTransform recursos;
+    public RectTransform padreOriginalDeRecursos;
+    public RectTransform padreDeRecursos;
+    private Vector3 infoRecursosPosition;
     
 
     private void Awake()
@@ -20,6 +25,8 @@ public class GestionCerdoUI : MonoBehaviour
 
     public void CambiarEscena(string escena)
     {
+        Inicializador.singleton.GuardarDatos();
+        tamagotchiActual.GuardarAhora();
         SceneManager.LoadScene(escena);
     }
 
@@ -28,12 +35,19 @@ public class GestionCerdoUI : MonoBehaviour
         tamagotchiActual = a;
         selectorCerdo = s;
         cnvInfoCerdo.SetActive(true);
+
+        infoRecursosPosition = recursos.transform.position;
+        recursos.SetParent(padreDeRecursos);
+        recursos.transform.localPosition = Vector3.zero;
     }
 
     public void Desactivar()
     {
         selectorCerdo.VolverAlPiso();
         cnvInfoCerdo.SetActive(false);
+
+        recursos.SetParent(padreOriginalDeRecursos);
+        recursos.transform.position = infoRecursosPosition;
     }
 
     public void ActivarObjetos(int cuales)

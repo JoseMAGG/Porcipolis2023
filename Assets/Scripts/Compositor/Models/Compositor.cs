@@ -8,7 +8,7 @@ public class Compositor
     public static string trackName="";
     public int ActualInstrument;
     public int BiggerInstrument;
-
+    public int bpm;
  
 
 

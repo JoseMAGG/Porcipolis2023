@@ -1,6 +1,8 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
 public class CompositorUI : MonoBehaviour
 {
@@ -14,6 +16,7 @@ public class CompositorUI : MonoBehaviour
     public Color initialColorTimeLine;
     [Space]
     public Slider sliderSpeed;
+    public Text bpmText;
     [Space]
     [Header("Sprites Grid and Tabs-----------------------")]
     public Sprite spriteDarkOffCells;
@@ -27,7 +30,7 @@ public class CompositorUI : MonoBehaviour
 
     public static InstrumentUI actualInstUI;
     GameController gameController;
-    Compositor compositor;
+    [HideInInspector] public Compositor compositor;
 
 
     #region Aux variables
@@ -35,7 +38,8 @@ public class CompositorUI : MonoBehaviour
     public static int numTabs = 10;
     public static int cols = 8;
     bool showTimeLine = true; //?
-
+    public bool newChanges;
+    public float initialSliderValue;
     #endregion
 
     #region singlenton
@@ -53,14 +57,19 @@ public class CompositorUI : MonoBehaviour
 
         gameController = GameController.instance;
         compositor = gameController.compositor;
-
-
+        sliderSpeed.value = compositor.bpm;
+        initialSliderValue = sliderSpeed.value;
         yield return new WaitForSeconds(0.5f);
 
         SetActualInstrument(gameController.instrumentProp[0].name); //Set the first element of instrument propierties as the actual instrument
     }
 
-
+    private void Update()
+    {
+        compositor.bpm = (int) sliderSpeed.value; 
+        bpmText.text = sliderSpeed.value + "\nBPM";
+        if (initialSliderValue != sliderSpeed.value) newChanges = true;
+    }
 
 
     public void SetActualInstrument(string name)
@@ -72,7 +81,9 @@ public class CompositorUI : MonoBehaviour
 
             actualInstUI = instrumentsUI.Find(x => x.nickname.Equals(name)); //Find the real one
             actualInstUI.gameObject.SetActive(true);
-         
+
+            textactualIns.text = actualInstUI.nickname;
+
             // actualInstUI.EnableUI();
             instrumentsUI.ForEach(x => x.EnableUI());
         }
@@ -108,8 +119,13 @@ public class CompositorUI : MonoBehaviour
 
     }
 
-    public float GetSpeedSlider() => (sliderSpeed.value - 0.5f) * 2;
+    public float GetSpeedSlider() => 60/sliderSpeed.value;
 
+    public void SumSpeed(int value)
+    {
+        sliderSpeed.value += value;
+    }
+    
     public void SetTimeLineColor(int i)
     {
 
@@ -134,9 +150,10 @@ public class CompositorUI : MonoBehaviour
         int indexActual = instrumentsUI.FindIndex(x => x.nickname.Equals(actualInstUI.nickname));
         int indexNext = (indexActual + 1) % (instrumentsUI.Count);
    
-        textactualIns.text =(indexNext + 1).ToString() ;
 
         actualInstUI = instrumentsUI[indexNext];
+        textactualIns.text = actualInstUI.nickname;
+        
          DisableEnable();
     }
 
@@ -156,18 +173,9 @@ public class CompositorUI : MonoBehaviour
             indexNext = instrumentsUI.Count - 1;
         }
 
-        textactualIns.text = (indexNext + 1).ToString();
-
         actualInstUI = instrumentsUI[indexNext];
+        textactualIns.text = actualInstUI.nickname;
         DisableEnable();
     }
-
-
-
-
-
-
-
-
 
 }

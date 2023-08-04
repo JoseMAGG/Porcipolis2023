@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -8,6 +9,7 @@ public class Hexagono : MonoBehaviour
     public bool tieneValla        = false;
     public bool ocupado           = false;
     public int ocupadoPor         = -1;
+    public int crecimientoArbol   = -1;
 
     void Start()
     {
@@ -68,17 +70,17 @@ public class Hexagono : MonoBehaviour
         {
             return;
         }
-        GameObject arbolito = Instantiate(Inicializador.singleton.prefabs[c], transform.position, Quaternion.identity) as GameObject;
+        GameObject elemento = Instantiate(Inicializador.singleton.prefabs[c], transform.position, Quaternion.identity) as GameObject;
         //GestorEconomia.singleton.UsarRecurso(Inicializador.singleton.tipoRecursoACrear, Inicializador.singleton.precioCrear);
-        arbolito.transform.up = transform.position.normalized;
-        arbolito.GetComponent<ObjetoCreado>().padre = this;
+        elemento.transform.up = transform.position.normalized;
+        elemento.GetComponent<ObjetoCreado>().padre = this;
         //Borrar esto que no va ahí!!!!
         ocupado = true;
     }
 
     public string ConvertirString()
     {
-        string s = ocupado.AString() + "¬" + tieneValla.AString() + "¬" + ocupadoPor;
+        string s = ocupado.AString() + "¬" + tieneValla.AString() + "¬" + ocupadoPor + "¬" + crecimientoArbol;
         return s;
     }
 
@@ -88,11 +90,27 @@ public class Hexagono : MonoBehaviour
         ocupado.ABooleano(svec[0]);
         tieneValla = "1" == (svec[1]);
         ocupadoPor = int.Parse(svec[2]);
-        if (ocupadoPor!=-1) CrearElemento(ocupadoPor);
+        if (ocupadoPor == 0)
+        {
+            CrecimientoArbol crecimiento = (CrecimientoArbol) int.Parse(svec[3]);
+            CrearArbol(crecimiento);
+        }
+        else if (ocupadoPor != -1) CrearElemento(ocupadoPor);
         if (tieneValla)
         {
             StartCoroutine(EnvallaConDelay());
         }
+    }
+
+    private void CrearArbol(CrecimientoArbol crecimiento)
+    {
+        GameObject arbolito = Instantiate(Inicializador.singleton.prefabs[0], transform.position, Quaternion.identity) as GameObject;
+        arbolito.GetComponent<Arbol>().crecimiento = crecimiento;
+        arbolito.transform.up = transform.position.normalized;
+        arbolito.GetComponent<ObjetoCreado>().padre = this;
+        //Borrar esto que no va ahí!!!!
+        ocupado = true;
+
     }
 
     public IEnumerator EnvallaConDelay()

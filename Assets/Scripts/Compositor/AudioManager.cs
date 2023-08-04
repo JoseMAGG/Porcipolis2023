@@ -33,7 +33,7 @@ public class AudioManager : MonoBehaviour
     GameController gameController;
     List<Instrument> instruments = new List<Instrument>();
 
- 
+
 
 
     private void Awake()
@@ -83,23 +83,51 @@ public class AudioManager : MonoBehaviour
 
     IEnumerator PlayActiveNotes()
     {
-      
-        compositorUI.SetTimeLineColor(cols); //Change color timeline
+        bool morePagesInOtherInst = false;
+        int pageCount = 1;
+        CompositorUI.actualInstUI.instrument.ActualPage = pageCount - 1;
+        CompositorUI.actualInstUI.ShowActualPage(pageCount.ToString());
 
-        SearchActiveNotes();
+        while (play)
+        {
+            Instrument actualInst = CompositorUI.actualInstUI.instrument;
+            bool isBiggest = actualInst.PagesNum == compositorUI.compositor.BiggerInstrument;
+            bool isLastPage = actualInst.PagesNum == actualInst.ActualPage + 1;
 
+            morePagesInOtherInst = isLastPage && !isBiggest;
+            if (!morePagesInOtherInst || actualInst.PagesNum >= pageCount)
+            {
+                compositorUI.SetTimeLineColor(cols); //Change color timeline
 
-        yield return new WaitForSeconds(compositorUI.GetSpeedSlider());
+                actualInst.ActualPage = pageCount - 1;
+                CompositorUI.actualInstUI.ShowActualPage(pageCount.ToString());
+            }
+            else
+            {
+                actualInst.ActualPage = actualInst.PagesNum - 1;
+                CompositorUI.actualInstUI.ShowActualPage(actualInst.PagesNum.ToString());
+            }
 
-        compositorUI.ResetTimeLineColor(cols); //Change color timeline
+            SearchActiveNotes();
 
+            yield return new WaitForSecondsRealtime(compositorUI.GetSpeedSlider());
 
-        SetPropierties();
+            compositorUI.ResetTimeLineColor(cols); //Change color timeline
+            if (cols == 7)
+            {
+                if (pageCount == compositorUI.compositor.BiggerInstrument)
+                {
+                    morePagesInOtherInst = false;
+                    pageCount = 1;
+                }
+                else
+                {
+                    pageCount++;
+                }
+            }
 
-
-        if (play)
-            StartCoroutine(PlayActiveNotes());
-
+            SetPropierties();
+        }
     }
 
     void Play(string name)
@@ -110,7 +138,7 @@ public class AudioManager : MonoBehaviour
             Note s = Array.Find(instrumentData.notes, note => note.name == name);
 
             if (!(s is null))
-             {
+            {
                 s.source.Play();
                 return;
 
@@ -136,7 +164,7 @@ public class AudioManager : MonoBehaviour
             {
                 if (actualPage.Grid[i, cols].isActive)
                 {
-                    Play(instrument.name+"_"+actualPage.Grid[i, cols].name); //Reproduce note
+                    Play(instrument.name + "_" + actualPage.Grid[i, cols].name); //Reproduce note
                 }
             }
         }
@@ -178,6 +206,7 @@ public class AudioManager : MonoBehaviour
     }
     public void Stop()
     {
+        compositorUI.ResetTimeLineColor(cols);
         cols = 0;
         play = false;
         StopAllCoroutines();

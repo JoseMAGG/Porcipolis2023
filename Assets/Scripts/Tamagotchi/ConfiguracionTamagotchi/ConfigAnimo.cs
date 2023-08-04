@@ -31,6 +31,9 @@ public class ConfigAnimo
     [Space]
     [Range(0, 0.5f)]
     public float animoPorDormir;
+    [Space]
+    [Range(0, 0.5f)]
+    public float animoPorEmbarrar;
 
     public  void SetInitialValues ()
     {

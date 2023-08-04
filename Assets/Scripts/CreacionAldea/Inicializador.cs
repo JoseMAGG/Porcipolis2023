@@ -73,5 +73,6 @@ public class Inicializador : MonoBehaviour
             s = s + HexagonoControl.singleton.hexagonos[i].ConvertirString();
         }
         MorionTools.Guardar("granja", s);
+        print("Se ha guardado el Inicializador");
     }
 }

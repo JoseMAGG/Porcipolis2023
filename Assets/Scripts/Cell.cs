@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+
 public class Cell : MonoBehaviour
 {
     [Header("Cell Properties")]
@@ -7,13 +8,11 @@ public class Cell : MonoBehaviour
     public int row;
     public int col;
     public string nombre;
-    GameController gameController;
     public InstrumentUI instrumentUI;
     public Instrument instrument;
 
     private void Start()
     {
-        gameController = GameController.instance;
         GetComponent<Button>().onClick.AddListener(() => ActivarDesactivar());
     }
 
@@ -44,7 +43,9 @@ public class Cell : MonoBehaviour
         {
             Activar();
         }
+        CompositorUI.instance.newChanges = true;
     }
 
 
 }
+

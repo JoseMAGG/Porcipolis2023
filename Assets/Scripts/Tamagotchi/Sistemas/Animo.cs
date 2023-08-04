@@ -142,6 +142,11 @@ public class Animo : Sistema
         tiemposConsentir.ResetearTiempos();
     }
 
+    public void Enmugrar()
+    {
+        Incrementar(ConfigTamagotchi.instance.configAnimo.animoPorEmbarrar);
+    }
+
     #endregion
 
     public enum Estado {

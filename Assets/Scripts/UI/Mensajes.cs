@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Security.Permissions;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -19,5 +20,10 @@ public class Mensajes : MonoBehaviour
     {
         txtMensaje.text = m;
         mensaje.SetActive(true);
+    }
+
+    public void BtnAceptar()
+    {
+        mensaje.SetActive(false);
     }
 }
