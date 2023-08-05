@@ -186,11 +186,18 @@ public class GestorTamagotchi : MonoBehaviour
     #region Save system 
     public IEnumerator Guardar()
     {
-        yield return new WaitForSeconds ( 15 );       
+        while (true)
+        {
+            GuardarAhora();
+            yield return new WaitForSeconds(15);
+        }   
+    }
 
-        MorionTools.Guardar ( "tamagotchi_" + this.gameObject.name , JsonUtility.ToJson ( this ) );
-   
-        Guardar ();
+    public void GuardarAhora()
+    {
+        MorionTools.Guardar("tamagotchi_" + this.gameObject.name, JsonUtility.ToJson(this));
+        print("Se ha guardado el gestorTamagotchi");
+
     }
     #endregion
 
