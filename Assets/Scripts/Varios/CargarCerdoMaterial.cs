@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 using UnityEngine.PlayerLoop;
+using Random = UnityEngine.Random;
 
 public class CargarCerdoMaterial : MonoBehaviour
 {
@@ -43,9 +44,9 @@ public class CargarCerdoMaterial : MonoBehaviour
 
     public void CrearCerdo()
     {
-      /*  sensible        = Random.Range(0, 0.5f);
+        sensible        = Random.Range(0, 0.5f);
         escala          = Random.Range(0, 10f);
-        desplasamiento  = Random.Range(0, 1);*/
+        desplasamiento  = Random.Range(0, 1);
 
         MorionTools.Guardar("sensible", sensible.ToString());
         MorionTools.Guardar("escala", escala.ToString());
