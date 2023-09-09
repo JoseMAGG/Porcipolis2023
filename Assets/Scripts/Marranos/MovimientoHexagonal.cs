@@ -21,12 +21,16 @@ public class MovimientoHexagonal : MonoBehaviour
 
     Vector3 pa;
     Vector3 po;
-    
+    bool dormido = false;
+    bool muerto = false;
+
     void Start()
     {
         TamagotchiEvent.instance.OnCerdoMuerto += DisableComponent;
-        
-        
+
+         dormido = GestorTamagotchi.gestor.estadosActuales.VerificarEstado("dormido");
+         muerto = GestorTamagotchi.gestor.estadosActuales.VerificarEstado("muerto");
+
         Collider[] colisiones = Physics.OverlapSphere(transform.position, 4);
         for (int i = 0; i < colisiones.Length; i++)
         {
@@ -39,7 +43,10 @@ public class MovimientoHexagonal : MonoBehaviour
                 }
             }
         }
-        CambiarFase(0);
+        if (!dormido && !muerto)
+        {
+            CambiarFase(0);
+        }
     }
 
     public void DisableComponent()
@@ -51,8 +58,12 @@ public class MovimientoHexagonal : MonoBehaviour
 
     IEnumerator EsperarQueSePueda(int f)
     {
+        dormido = GestorTamagotchi.gestor.estadosActuales.VerificarEstado("dormido");
+        muerto = GestorTamagotchi.gestor.estadosActuales.VerificarEstado("muerto");
         yield return new WaitUntil(() => this.enabled);
-        CambiarFase(f);
+        if(!dormido && !muerto) { 
+            CambiarFase(f);
+        }
     }
 
     public void CambiarFase(int f)
@@ -118,6 +129,16 @@ public class MovimientoHexagonal : MonoBehaviour
     
     void Update()
     {
+        if (GestorTamagotchi.gestor.estadosActuales.VerificarEstado("muerto"))
+        {
+            Debug.Log("esta muerto");
+            return;
+        }
+        if (GestorTamagotchi.gestor.estadosActuales.VerificarEstado("dormido"))
+        {
+            Debug.Log("esta dormido");
+            return;
+        }
         switch (fase)
         {
             case 1:

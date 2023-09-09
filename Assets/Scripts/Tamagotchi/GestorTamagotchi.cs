@@ -216,7 +216,7 @@ public class GestorTamagotchi : MonoBehaviour
         }
         JsonUtility.FromJsonOverwrite(MorionTools.Cargar($"tamagotchi_{this.gameObject.name}"), this);
         gestorTamagotchi = this;
-        // Debug.Log ( "Información tamagotchi cargada" );
+         Debug.Log ( "Información tamagotchi cargada" );
     }
 
     public void AsignarTipoComida(string v)
