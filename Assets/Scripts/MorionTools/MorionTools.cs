@@ -22,7 +22,8 @@ public class MorionTools : MonoBehaviour
     public static string Cargar(string nombre) 
     {
         //print("Cargado => " + nombreUsuario + "_" + nombre + "::" + PlayerPrefs.GetString(nombreUsuario + "_" + nombre));
-        return PlayerPrefs.GetString(nombreUsuario + "_" + nombre);
+        string retorno = PlayerPrefs.GetString(nombreUsuario + "_" + nombre);
+        return retorno;
     }
         
 

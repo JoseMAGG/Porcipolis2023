@@ -22,11 +22,14 @@ public class CargarCerdoMaterial : MonoBehaviour
         {
             return;
         }
-       
-        sensible       = float.Parse(MorionTools.Cargar("sensible"));
-        escala         = float.Parse(MorionTools.Cargar("escala"));
-        desplasamiento = float.Parse(MorionTools.Cargar("desplasamiento"));
-        if ((sensible + escala + desplasamiento) == 0)
+        string carga = MorionTools.Cargar("sensible");
+        if (!carga.Equals(string.Empty))
+        {
+            sensible = float.Parse(carga);
+            escala = float.Parse(MorionTools.Cargar("escala"));
+            desplasamiento = float.Parse(MorionTools.Cargar("desplasamiento"));
+        }
+        else
         {
             CrearCerdo();
         }
@@ -44,9 +47,9 @@ public class CargarCerdoMaterial : MonoBehaviour
 
     public void CrearCerdo()
     {
-        sensible        = Random.Range(0, 0.5f);
-        escala          = Random.Range(0, 10f);
-        desplasamiento  = Random.Range(0, 1);
+        sensible = Random.Range(0, 0.5f);
+        escala = Random.Range(0, 10f);
+        desplasamiento = Random.Range(0, 1);
 
         MorionTools.Guardar("sensible", sensible.ToString());
         MorionTools.Guardar("escala", escala.ToString());
