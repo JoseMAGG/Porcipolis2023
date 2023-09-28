@@ -11,7 +11,7 @@ public class TamagotchiManager : MonoBehaviour
 
     private void Start ()
     {
-
+        gestores = new List<GestorTamagotchi>();
     }
 
 
